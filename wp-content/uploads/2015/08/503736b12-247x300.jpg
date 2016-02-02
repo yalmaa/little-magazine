@@ -1,0 +1,3158 @@
+
+<!DOCTYPE html>
+
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<link rel="shortcut icon" href="http://www.thelittleshopper.com/wp-content/themes/blanco/images/favicon.ico" />
+
+<meta charset="UTF-8" />
+
+
+
+<title>Magazine - The Little Shopper		</title>
+
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+
+    <link rel="pingback" href="http://www.thelittleshopper.com/xmlrpc.php" />
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" media="all" href="http://www.thelittleshopper.com/wp-content/themes/blanco/css/flexslider1.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.thelittleshopper.com/wp-content/themes/blanco/style.css" />
+ <link rel="stylesheet" type="text/css" media="all" href="http://www.thelittleshopper.com/wp-content/themes/blanco/stylenew1.css" />
+ <link rel="stylesheet" type="text/css" media="all" href="http://www.thelittleshopper.com/wp-content/themes/blanco/blog-responsive.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.thelittleshopper.com/wp-content/themes/blanco/css/jquery.bxslider.css" />
+ <style>
+        
+        /** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+ 
+    </style>
+
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+    
+<!-- write script to toggle class on scroll -->
+
+
+    <script type="text/javascript">
+
+            var etheme_wp_url = 'http://www.thelittleshopper.com';
+
+            var succmsg = 'All is well, your e&ndash;mail has been sent!';
+
+    </script>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="http://www.thelittleshopper.com/wp-content/themes/blanco/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="http://www.thelittleshopper.com/wp-content/themes/blanco/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="http://www.thelittleshopper.com/wp-content/themes/blanco/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="http://www.thelittleshopper.com/wp-content/themes/blanco/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="http://www.thelittleshopper.com/wp-content/themes/blanco/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="http://www.thelittleshopper.com/wp-content/themes/blanco/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="http://www.thelittleshopper.com/wp-content/themes/blanco/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="http://www.thelittleshopper.com/wp-content/themes/blanco/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>	
+<script type="text/javascript">
+$(function() {
+    $("#concieve").fancybox({
+        'onStart': function() { $("#concieveusers").css("display","block"); }           
+     //   'onClosed': function() { $("#concieveusers").css("display","none"); },
+	//	'onClosed': function() {
+      //  $('#concieveusers form#form1 input').val('');
+        //$('#concieveusers').removeClass('errors');
+     
+		 // }
+    });
+	
+	$("#concieve").fancybox({
+   'afterClose': function() {
+		 $('#concieveusers #form1 input#Name').val('');
+		 $('#concieveusers #form1 input#Email').val('');
+		 $('#concieveusers #form1 input#Password').val('');
+		
+		
+		     /* $('#concieveusers #form1 #name_error').css("visibility","hidden");
+	    $('#concieveusers #form1 #email_error').css("visibility","hidden");
+	    $('#concieveusers #form1 #password_error').css("visibility","hidden");
+	    $('#concieveusers #form1 #offer_error').css("visibility","hidden");*/
+	  // window.location.reload();
+ 
+    }
+});
+});
+
+$(function() {
+    $("#pregancy").fancybox({
+        'onStart': function() { $("#pregancyusers").css("display","block"); }            
+    });
+		$("#pregancy").fancybox({
+   'afterClose': function() {
+    $('#pregancyusers #form2 input#Name1').val('');
+		 $('#pregancyusers #form2 input#Email1').val('');
+		 $('#pregancyusers #form2 input#Password1').val('');
+	  // window.location.reload();
+ 
+    }
+});
+});
+
+$(function() {
+    $("#parent").fancybox({
+        'onStart': function() { $("#parentusers").css("display","block"); }          
+    });
+			$("#parent").fancybox({
+   'afterClose': function() {
+    $('#parentusers #form3 input#Name1').val('');
+		 $('#parentusers #form3 input#Email2').val('');
+		 $('#parentusers #form3 input#Password2').val('');
+	  // window.location.reload();
+ 
+    }
+});
+});
+</script>
+ <script type="text/javascript">
+$(function() {
+    $("#btnForm321").fancybox({
+        'onStart': function() { $("#divForm321").css("display","block"); },            
+        'onClosed': function() { $("#divForm321").css("display","none"); }
+    });
+});
+ </script>
+				<script type="text/javascript">document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+						<style>
+				.wishlist_table .add_to_cart, a.add_to_wishlist.button.alt { border-radius: 16px; -moz-border-radius: 16px; -webkit-border-radius: 16px; }			</style>
+			<script type="text/javascript">
+				var yith_wcwl_plugin_ajax_web_url = 'http://www.thelittleshopper.com/wp-admin/admin-ajax.php';
+			</script>
+		
+<!-- This site is optimized with the Yoast SEO plugin v2.3.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="http://www.thelittleshopper.com/magazine/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Magazine - The Little Shopper" />
+<meta property="og:description" content="(Visited 2 times, 1 visits today)" />
+<meta property="og:url" content="http://www.thelittleshopper.com/magazine/" />
+<meta property="og:site_name" content="The Little Shopper" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:description" content="(Visited 2 times, 1 visits today)"/>
+<meta name="twitter:title" content="Magazine - The Little Shopper"/>
+<meta name="twitter:domain" content="The Little Shopper"/>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="The Little Shopper &raquo; Feed" href="http://www.thelittleshopper.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Little Shopper &raquo; Comments Feed" href="http://www.thelittleshopper.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="The Little Shopper &raquo; Magazine Comments Feed" href="http://www.thelittleshopper.com/magazine/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.thelittleshopper.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.2"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='mgwb-style-frontend-css'  href='http://www.thelittleshopper.com/wp-content/plugins/ultimate-woocommerce-brands/css/mgwoocommercebrands.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='http://www.thelittleshopper.com/wp-content/plugins/LayerSlider/static/css/layerslider.css?ver=5.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ls-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900|Open+Sans:300|Indie+Flower:regular|Oswald:300,regular,700&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://www.thelittleshopper.com/wp-content/plugins/displet-pop/style.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-lightbox-swipebox-css'  href='http://www.thelittleshopper.com/wp-content/plugins/responsive-lightbox/assets/swipebox/css/swipebox.min.css?ver=1.5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://www.thelittleshopper.com/wp-content/plugins/revslider/rs-plugin/css/settings.css?ver=4.6.5' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='wprmenu.css-css'  href='http://www.thelittleshopper.com/wp-content/plugins/wp-responsive-menu/css/wprmenu.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wprmenu-font-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C600&#038;ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-selectBox-css'  href='http://www.thelittleshopper.com/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcwl-main-css'  href='http://www.thelittleshopper.com/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcwl-font-awesome-css'  href='http://www.thelittleshopper.com/wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='superfish-css'  href='http://www.thelittleshopper.com/wp-content/themes/blanco/css/superfish.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='slider-css'  href='http://www.thelittleshopper.com/wp-content/themes/blanco/css/slider.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='lightbox-css'  href='http://www.thelittleshopper.com/wp-content/themes/blanco/css/flexslider.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.thelittleshopper.com/wp-content/themes/blanco/css/font-awesome.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css'  href='//www.thelittleshopper.com/wp-content/plugins/woocommerce/assets/css/prettyPhoto.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ivpa-style-css'  href='http://www.thelittleshopper.com/wp-content/plugins/improved-variable-product-attributes/assets/css/style.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wr-mm-bootstrap3-css'  href='http://www.thelittleshopper.com/wp-content/plugins/wr-megamenu/assets/3rd-party/bs3/bootstrap/css/bootstrap.min.css?ver=3.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wr-mm-bootstrap3-icomoon-css'  href='http://www.thelittleshopper.com/wp-content/plugins/wr-megamenu/assets/3rd-party/bs3/font-icomoon/css/icomoon.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wr-font-awesome-css'  href='http://www.thelittleshopper.com/wp-content/plugins/wr-megamenu/assets/3rd-party/font-awesome/css/font-awesome.min.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wr-megamenu-site-css'  href='http://www.thelittleshopper.com/wp-content/plugins/wr-megamenu/assets/css/frontend.css' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://www.thelittleshopper.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.11' type='text/css' media='all' />
+<link rel='stylesheet' id='rpf-style-css'  href='http://www.thelittleshopper.com/wp-content/plugins/recent-posts-slider-responsive/css/style.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wppb_stylesheet-css'  href='http://www.thelittleshopper.com/wp-content/plugins/profile-builder/assets/css/style-front-end.css?ver=4.2.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/recent-posts-slider-responsive/js/jquery.flexisel.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js?ver=5.1.1'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/LayerSlider/static/js/greensock.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/LayerSlider/static/js/layerslider.transitions.js?ver=5.1.1'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js?ver=1.5.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rlArgs = {"script":"swipebox","selector":"lightbox","customEvents":"","activeGalleries":"0","animation":"1","hideCloseButtonOnMobile":"0","removeBarsOnMobile":"0","hideBars":"1","hideBarsDelay":"5000","videoMaxWidth":"1080","useSVG":"1","loopAtEnd":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/responsive-lightbox/js/front.js?ver=1.5.7'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?ver=4.6.5'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=4.6.5'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/wp-responsive-menu/js/jquery.transit.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/wp-responsive-menu/js/jquery.sidr.js?ver=4.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wprmenu = {"zooming":"yes","from_width":"768","swipe":"yes"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/wp-responsive-menu/js/wprmenu.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/themes/blanco/js/jquery.easing.1.3.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/themes/blanco/js/cookie.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/themes/blanco/js/hoverIntent.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/themes/blanco/js/jquery.slider.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/themes/blanco/js/efects.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/themes/blanco/js/modernizr.custom.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/themes/blanco/js/jquery.masonry.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/themes/blanco/js/jquery.flexslider-min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/themes/blanco/js/superfish.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/themes/blanco/js/tooltip.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/themes/blanco/js/tabs.js?ver=4.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.thelittleshopper.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=2.3.13'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/themes/blanco/js/script.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/easy-logo-slider/js/jquery.jcarousel.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/easy-logo-slider/js/jcarousel.responsive.js?ver=4.2.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.thelittleshopper.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 4.2.2" />
+<meta name="generator" content="WooCommerce 2.3.13" />
+<link rel='shortlink' href='http://www.thelittleshopper.com/?p=14' />
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}wpa2a.done=true;}wpa2a.targets=[];}};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.callbacks.push({ready:wpa2a.script_onready});
+//--></script>
+
+<script>
+// Start allowance of jQuery to $ shortcut
+jQuery(document).ready(function($){
+
+	// Open and close popup, session management
+			$('#displetpop .close a, #displetpop .shadow').click(function(){
+			hideDispletPop();
+		});
+		function displetPop(){
+		$('#displetpop').show();
+		$('body').addClass('displetpop');
+		$.cookie('displetpop_recentpop','yes', {expires:7, path:'/'});
+	}
+	// Gravity forms confirmation
+	$(document).bind('gform_confirmation_loaded', function(){
+    	setTimeout(hideDispletPop,2000);
+	});
+	var displetpoppathhome = '1';
+	var displetpoppath1 = '';
+	var displetpoppath2 = '';
+	var displetpoppath3 = '';
+	if (displetpoppathhome == '1' || displetpoppath1 != '' || displetpoppath2 != '' || displetpoppath3 != '') {
+		var urlmatch = 'no';
+	}
+	else{
+		var urlmatch = 'yes';
+	}
+	if (displetpoppathhome=='1'){
+		if('' == '1') {
+			urlmatch = 'yes';
+		}
+	}
+	if (displetpoppath1!=''){
+		if(window.location.href.indexOf(displetpoppath1) > -1) {
+			urlmatch = 'yes';
+		}
+	}
+	if (displetpoppath2!=''){
+		if(window.location.href.indexOf(displetpoppath2) > -1) {
+			urlmatch = 'yes';
+		}
+	}
+	if (displetpoppath3!=''){
+		if(window.location.href.indexOf(displetpoppath3) > -1) {
+			urlmatch = 'yes';
+		}
+	}
+	if ((($.cookie('displetpop_recentpop', {path:'/'}) != 'yes' && '2' >= '1') || ('1' == '1' && '' == '1')) && urlmatch != 'no'){
+		window.setTimeout(displetPop, 2000);	
+	}
+	
+// Ends allowance of jQuery to $ shortcut
+});
+function hideDispletPop() {
+	jQuery('#displetpop').hide();
+	jQuery('body').removeClass('displetpop');
+}
+function displetpopCheckSubmissionSuccess(i){
+	// CF7 confirmation
+    if (jQuery('#displetpop .wpcf7-response-output').hasClass('wpcf7-mail-sent-ok')) {
+    	setTimeout(hideDispletPop,2000);
+    }
+    else if (i < 10){
+		setTimeout(function(){
+			i++;
+			displetpopCheckSubmissionSuccess(i);
+		},2000);	
+    }
+}
+</script>
+
+<style type="text/css" media="screen"></style>		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				// CUSTOM AJAX CONTENT LOADING FUNCTION
+				var ajaxRevslider = function(obj) {
+				
+					// obj.type : Post Type
+					// obj.id : ID of Content to Load
+					// obj.aspectratio : The Aspect Ratio of the Container / Media
+					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+					
+					var content = "";
+
+					data = {};
+					
+					data.action = 'revslider_ajax_call_front';
+					data.client_action = 'get_slider_html';
+					data.token = 'b83a0a9b80';
+					data.type = obj.type;
+					data.id = obj.id;
+					data.aspectratio = obj.aspectratio;
+					
+					// SYNC AJAX REQUEST
+					jQuery.ajax({
+						type:"post",
+						url:"http://www.thelittleshopper.com/wp-admin/admin-ajax.php",
+						dataType: 'json',
+						data:data,
+						async:false,
+						success: function(ret, textStatus, XMLHttpRequest) {
+							if(ret.success == true)
+								content = ret.data;								
+						},
+						error: function(e) {
+							console.log(e);
+						}
+					});
+					
+					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+					 return content;						 
+				};
+				
+				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+				var ajaxRemoveRevslider = function(obj) {
+					return jQuery(obj.selector+" .rev_slider").revkill();
+				};
+
+				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+				var extendessential = setInterval(function() {
+					if (jQuery.fn.tpessential != undefined) {
+						clearInterval(extendessential);
+						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+							// func: the Function Name which is Called once the Item with the Post Type has been clicked
+							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+						}
+					}
+				},30);
+			});
+		</script>
+				<style id="wprmenu_css" type="text/css" >
+			/* apply appearance settings */
+			#wprmenu_bar {
+				background: #0D0D0D;
+			}
+			#wprmenu_bar .menu_title, #wprmenu_bar .wprmenu_icon_menu {
+				color: #F2F2F2;
+			}
+			#wprmenu_menu {
+				background: #2E2E2E!important;
+			}
+			#wprmenu_menu.wprmenu_levels ul li {
+				border-bottom:1px solid #131212;
+				border-top:1px solid #0D0D0D;
+			}
+			#wprmenu_menu ul li a {
+				color: #CFCFCF;
+			}
+			#wprmenu_menu ul li a:hover {
+				color: #606060;
+			}
+			#wprmenu_menu.wprmenu_levels a.wprmenu_parent_item {
+				border-left:1px solid #0D0D0D;
+			}
+			#wprmenu_menu .wprmenu_icon_par {
+				color: #CFCFCF;
+			}
+			#wprmenu_menu .wprmenu_icon_par:hover {
+				color: #606060;
+			}
+			#wprmenu_menu.wprmenu_levels ul li ul {
+				border-top:1px solid #131212;
+			}
+			#wprmenu_bar .wprmenu_icon span {
+				background: #FFFFFF;
+			}
+			
+			#wprmenu_menu.left {
+				width:80%;
+				left: -80%;
+			    right: auto;
+			}
+			#wprmenu_menu.right {
+				width:80%;
+			    right: -80%;
+			    left: auto;
+			}
+
+
+			
+						/* show the bar and hide othere navigation elements */
+			@media only screen and (max-width: 768px) {
+				html { padding-top: 0px!important; }
+				#wprmenu_bar { display: block!important; }
+				div#wpadminbar { position: fixed; }
+				#header1, .it-responsive-mega, #menu-item-534 { display:none!important; }			}
+		</style>
+			<style type="text/css">
+							.ivpa-content .ivpa_attribute[data-attribute="pa_size-fit"].ivpa_text.ivpa_border .ivpa_term.ivpa_active {
+								border-color:#bbbbbb;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_size-fit"].ivpa_text.ivpa_border .ivpa_term.ivpa_active.ivpa_clicked {
+								border-color:#333333;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_size-fit"].ivpa_text.ivpa_border .ivpa_term.ivpa_active.ivpa_disabled {
+								border-color:#e45050;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_size-fit"].ivpa_text.ivpa_border .ivpa_term.ivpa_active.ivpa_outofstock {
+								border-color:#e45050;
+							}
+												.ivpa-content .ivpa_attribute[data-attribute="pa_size-diapers"].ivpa_text.ivpa_border .ivpa_term.ivpa_active {
+								border-color:#bbbbbb;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_size-diapers"].ivpa_text.ivpa_border .ivpa_term.ivpa_active.ivpa_clicked {
+								border-color:#333333;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_size-diapers"].ivpa_text.ivpa_border .ivpa_term.ivpa_active.ivpa_disabled {
+								border-color:#e45050;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_size-diapers"].ivpa_text.ivpa_border .ivpa_term.ivpa_active.ivpa_outofstock {
+								border-color:#e45050;
+							}
+												.ivpa-content .ivpa_attribute[data-attribute="pa_size-age"].ivpa_text.ivpa_border .ivpa_term.ivpa_active {
+								border-color:#bbbbbb;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_size-age"].ivpa_text.ivpa_border .ivpa_term.ivpa_active.ivpa_clicked {
+								border-color:#333333;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_size-age"].ivpa_text.ivpa_border .ivpa_term.ivpa_active.ivpa_disabled {
+								border-color:#e45050;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_size-age"].ivpa_text.ivpa_border .ivpa_term.ivpa_active.ivpa_outofstock {
+								border-color:#e45050;
+							}
+												.ivpa-content .ivpa_attribute[data-attribute="pa_material"].ivpa_text .ivpa_term.ivpa_active {
+								background-color:#bbbbbb;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_material"].ivpa_text .ivpa_term.ivpa_active.ivpa_clicked {
+								background-color:#333333;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_material"].ivpa_text .ivpa_term.ivpa_active.ivpa_disabled {
+								background-color:#e45050;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_material"].ivpa_text .ivpa_term.ivpa_active.ivpa_outofstock {
+								background-color:#e45050;
+							}
+												.ivpa-content .ivpa_attribute[data-attribute="pa_sheets-wipes"].ivpa_text .ivpa_term.ivpa_active {
+								background-color:#bbbbbb;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_sheets-wipes"].ivpa_text .ivpa_term.ivpa_active.ivpa_clicked {
+								background-color:#333333;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_sheets-wipes"].ivpa_text .ivpa_term.ivpa_active.ivpa_disabled {
+								background-color:#e45050;
+							}
+							.ivpa-content .ivpa_attribute[data-attribute="pa_sheets-wipes"].ivpa_text .ivpa_term.ivpa_active.ivpa_outofstock {
+								background-color:#e45050;
+							}
+						</style>
+
+
+</head>
+
+
+
+<body class="page page-id-14 page-parent page-template page-template-blancomainpage page-template-blancomainpage-php">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0];
+ if (d.getElementById(id)) return;
+ js = d.createElement(s); js.id = id;
+ js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
+ fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <div id="blogcontainerpage" style="width: 100%;margin:0px auto;">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+<style type="text/css">
+    body {
+        background-color: #FFFFFF ;
+                                       
+        background-attachment: Select ;
+        background-repeat: Select ;
+        background-position: Select Select ;
+            }
+    
+            .label-icon.sale-label { 
+            width: 40px; 
+            height: 20px;
+        }            
+        .label-icon.sale-label { background-image: url(http://www.thelittleshopper.com/wp-content/themes/blanco/images/sale.png); }
+        
+            .label-icon.new-label { 
+            width: 40px; 
+            height: 20px;
+        }            
+        .label-icon.new-label { background-image: url(http://www.thelittleshopper.com/wp-content/themes/blanco/images/new.png); }
+        
+        .label-icon.second_label {
+            top:20px;
+        }
+        
+        
+    ::-moz-selection, ::selection                                    { background-color: #fe8045; }
+    
+    a:hover,        .entry-title,        .page-title,		.nav-tabs > li:hover > a,		.nav-tabs > li.active > a,        #main-nav > ul > li.current_page_item > a,        #main-nav > ul > li > a:hover,        .cats .block-content li a:hover,        #search .button:hover span,        .cats .block-content .current-parent h5 a,        .cats .block-content .wpsc_categories li.current-cat > a,        .amount,        .onsale-price .price, .currentprice,        .portfolio-filters li a.selected,        .widget_categories > ul > li:hover,        #main-nav > ul > li > ul li:hover,        .footer-information ul li a:hover,        #tabs li > a:hover,         #tabs li > a.active              { color: #fe8045; }
+    
+    .cats .block-head,        .widget_categories .widget-title,        .widget_product_categories .widget-title,        .et-menu-title,            .dropcap.dark,                .cats .block-content .wpsc_category_title .btn-show:hover,        .widget_price_filter .ui-slider .ui-slider-range,                        input[type=submit].active,        .button.active,                .etheme_widget_recent_comments > ul > li span:hover,        .widget_archive li:hover,                .square li:hover,                .pagintaion span,        .pagintaion a:hover,        .pagintaion .selected,                .continue_shopping:hover,        .go_to_checkout:hover,        input[type=submit]:hover,        .button:hover,        .button.checkout-button,                .widget_layered_nav ul li.chosen a                 { background-color: #fe8045; }
+    
+    input[type=submit].active:hover,        .button.active:hover,        .button.checkout-button:hover                { background-color: #fe8045; }
+    
+    h1,h2,h3,h4,h5,h6,        table.table th,        .menu > ul > li > a,        #main-nav > ul > li > a,        .block .block-head,        .product-slider .product-slide .product-name a,        #products-grid .product-grid .product-name a,		.nav-tabs > li > a,        .tabs li a,        .logo .logo-text,        #tabs li > a               { font-family: Open Sans; }
+    
+    textarea.validation-failed,        input.validation-failed,        .widget_layered_nav ul li.chosen a             { border-color: #fe8045;}
+    
+    .square li,                .etheme_widget_recent_comments > ul > li span,        .widget_archive li,                .continue_shopping,        .go_to_checkout,        input[type=submit],        .button                  { background-color:#acacac; }
+   
+</style>
+<script type="text/javascript">
+    var active_color_selector = 'a:hover,        .entry-title,        .page-title,		.nav-tabs > li:hover > a,		.nav-tabs > li.active > a,        #main-nav > ul > li.current_page_item > a,        #main-nav > ul > li > a:hover,        .cats .block-content li a:hover,        #search .button:hover span,        .cats .block-content .current-parent h5 a,        .cats .block-content .wpsc_categories li.current-cat > a,        .amount,        .onsale-price .price, .currentprice,        .portfolio-filters li a.selected,        .widget_categories > ul > li:hover,        #main-nav > ul > li > ul li:hover,        .footer-information ul li a:hover,        #tabs li > a:hover,         #tabs li > a.active';
+    var active_bg_selector = '.cats .block-head,        .widget_categories .widget-title,        .widget_product_categories .widget-title,        .et-menu-title,            .dropcap.dark,                .cats .block-content .wpsc_category_title .btn-show:hover,        .widget_price_filter .ui-slider .ui-slider-range,                        input[type=submit].active,        .button.active,                .etheme_widget_recent_comments > ul > li span:hover,        .widget_archive li:hover,                .square li:hover,                .pagintaion span,        .pagintaion a:hover,        .pagintaion .selected,                .continue_shopping:hover,        .go_to_checkout:hover,        input[type=submit]:hover,        .button:hover,        .button.checkout-button,                .widget_layered_nav ul li.chosen a';
+    var active_border_selector = 'textarea.validation-failed,        input.validation-failed,        .widget_layered_nav ul li.chosen a';
+    var active_color_default = '#fe8045';
+    var bg_default = '#ffffff'; 
+    var pattern_default = '';
+    
+    var isRequired = ' Please, fill in the required fields!';    
+    var cartHref = 'http://www.thelittleshopper.com/cart/';      
+    var successfullyAdded2 = 'was successfully added to your shopping cart.<div class="clear"><a class="button cont-shop"><span>Continue Shopping</span></a><a href="'+cartHref+'" class="button fl-r"><span>Checkout</span></a></div>';
+    var someerrmsg = 'Something went wrong';
+    var menuTitle = 'Menu';
+    var nav_accordion = false;
+
+</script>
+    <div id="container" class="wrapper-wide">
+
+
+
+
+
+        
+        <div id="loader">
+
+            <div id="loader-status">
+
+                <p class="center-text">
+
+                    <em>Loading the content...</em>
+
+                    <em>Loading depends on your connection speed!</em>
+
+                </p>
+
+            </div>
+
+        </div>
+
+        
+        <div class="containerInner containerInner-blog clearfix">
+	    
+	    
+
+           <header id="header1">
+
+              
+
+                
+
+        
+
+                <!--<div class="clear"></div>-->
+
+		<div class="main-navigation" style="float:right;">
+
+                <style type="text/css">
+.wr-megamenu-container.primary_522 {background: #ffffff !important;}.primary_522 .wr-mega-menu > li:hover > a, .primary_522 .wr-mega-menu > li.focus > a {background:  !important;}.primary_522 .wr-mega-menu > li > a > i, .primary_522 .wr-mega-menu .sub-menu a i {display:none !important;}.primary_522 .wr-mega-menu > li > a > i {font-size: 16px !important;}
+</style>
+<style type="text/css">
+.wr-megamenu-container ul.wr-mega-menu ul.sub-menu, .wr-megamenu-inner {
+  background-color: rgba(255, 255, 255, 0.9) !important; }
+.wr-megamenu-container li.home-scroll-enable { display: none; }
+.wr-megamenu-container a{color:#000;}
+.wr-megamenu-container ul.wr-mega-menu ul.sub-menu, .wr-megamenu-inner{
+  border:none!important;}
+.wr-element-submenu .submenu-items a {
+  color: #000!important;
+}
+</style>
+<div class="wr-megamenu-container jsn-bootstrap3 primary_522"><ul id="wr-megamenu-menu-19" class="wr-mega-menu nav-menu"><li  class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category wr-megamenu-item level-0 mega-item wr-megamenu-fixed" ><a href="http://www.thelittleshopper.com/magazine-category/little-did-you-know/" class="menu-item-link"><span class="menu_title">Little Did You Know</span></a><div class="wr-megamenu-inner" style="width:600px; left:0;" data-container="600px"><div class='jsn-bootstrap3'><div  class='row ' style='background: none;padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;'><div class="col-md-12 col-sm-18" ></div></div></div></div></li><li  class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item wr-megamenu-item level-0 mega-item wr-megamenu-fixed" ><a href="http://www.thelittleshopper.com/magazine-category/me-time/" class="menu-item-link"><span class="menu_title">Me Time</span></a><div class="wr-megamenu-inner" style="width:600px; left:0;" data-container="600px"><div class='jsn-bootstrap3'><div  class='row ' style='background: none;padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;'><div class="col-md-6 col-sm-9" ><div  class='wr-element-container wr-element-submenu' ><div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/beauty/" title="Beauty"><span class=""><span class="ig-menu-title">Beauty</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/care-me-time/" title="Care"><span class=""><span class="ig-menu-title">Care</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/fashion-me-time/" title="Fashion"><span class=""><span class="ig-menu-title">Fashion</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/" title="Home"><span class=""><span class="ig-menu-title">Home</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/health-fitness/" title="Health & Fitness"><span class=""><span class="ig-menu-title">Health & Fitness</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/self-development/" title="Self Development"><span class=""><span class="ig-menu-title">Self Development</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<script type='text/javascript'>( function ($) {
+				$( document ).ready( function ()
+				{
+					 $('.block-sub-menu').each(function() {
+
+						var _this = $(this);
+						var submenu_items = _this.find('> .submenu-items');
+						var count = submenu_items.length;
+
+						if (count > 0) {
+							var width = 100/count + '%';
+							submenu_items.css('width', width);
+						}
+
+					 })
+				});
+			} )( jQuery )</script></div></div><div class="col-md-6 col-sm-9" ><div  class='wr-element-container wr-element-megamenu_image' ><img src='http://52.11.48.215/wp-content/uploads/2015/05/getting-pregnent.jpg' class="no-appearance" /></div></div></div></div></div></li><li  class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item wr-megamenu-item level-0 mega-item wr-megamenu-fixed" ><a href="http://www.thelittleshopper.com/magazine-category/getting-pregnant/" class="menu-item-link"><span class="menu_title">Getting Pregnant</span></a><div class="wr-megamenu-inner" style="width:600px; left:0;" data-container="600px"><div class='jsn-bootstrap3'><div  class='row ' style='background: none;padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;'><div class="col-md-6 col-sm-9" ><div  class='wr-element-container wr-element-submenu' ><div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/fertility-ovulation/" title="Fertility & Ovulation"><span class=""><span class="ig-menu-title">Fertility & Ovulation</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/pre-pregnancy-health-body/" title="Pre-pregnancy health & body"><span class=""><span class="ig-menu-title">Pre-pregnancy health & body</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/trying-to-conceive/" title="Trying to conceive"><span class=""><span class="ig-menu-title">Trying to conceive</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<script type='text/javascript'>( function ($) {
+				$( document ).ready( function ()
+				{
+					 $('.block-sub-menu').each(function() {
+
+						var _this = $(this);
+						var submenu_items = _this.find('> .submenu-items');
+						var count = submenu_items.length;
+
+						if (count > 0) {
+							var width = 100/count + '%';
+							submenu_items.css('width', width);
+						}
+
+					 })
+				});
+			} )( jQuery )</script></div></div><div class="col-md-6 col-sm-9" ><div  class='wr-element-container wr-element-megamenu_image' ><img src='http://52.11.48.215/wp-content/uploads/2015/05/behind.jpg' class="no-appearance" /></div></div></div></div></div></li><li  class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item wr-megamenu-item level-0 mega-item wr-megamenu-fixed" ><a href="http://www.thelittleshopper.com/magazine-category/pregnancy/" class="menu-item-link"><span class="menu_title">Pregnancy</span></a><div class="wr-megamenu-inner" style="width:600px; left:0;" data-container="600px"><div class='jsn-bootstrap3'><div  class='row ' style='background: none;padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;'><div class="col-md-6 col-sm-9" ><div  class='wr-element-container wr-element-submenu' ><div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/1st-trimester/" title="1st Trimester"><span class=""><span class="ig-menu-title">1st Trimester</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/2nd-trimester/" title="2nd Trimester"><span class=""><span class="ig-menu-title">2nd Trimester</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/3rd-trimester/" title="3rd Trimester"><span class=""><span class="ig-menu-title">3rd Trimester</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/body/" title="Body"><span class=""><span class="ig-menu-title">Body</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/labor-delivery/" title="Labor & Delivery"><span class=""><span class="ig-menu-title">Labor & Delivery</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/maternity-fashion/" title="Maternity Fashion"><span class=""><span class="ig-menu-title">Maternity Fashion</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/health-symptoms/" title="Health & Symptoms"><span class=""><span class="ig-menu-title">Health & Symptoms</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<script type='text/javascript'>( function ($) {
+				$( document ).ready( function ()
+				{
+					 $('.block-sub-menu').each(function() {
+
+						var _this = $(this);
+						var submenu_items = _this.find('> .submenu-items');
+						var count = submenu_items.length;
+
+						if (count > 0) {
+							var width = 100/count + '%';
+							submenu_items.css('width', width);
+						}
+
+					 })
+				});
+			} )( jQuery )</script></div></div><div class="col-md-6 col-sm-9" ><div  class='wr-element-container wr-element-megamenu_image' ><img src='http://52.11.48.215/wp-content/uploads/2015/05/pregnancy.jpg' class="no-appearance" /></div></div></div></div></div></li><li  class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item wr-megamenu-item level-0 mega-item wr-megamenu-fixed" ><a href="http://www.thelittleshopper.com/magazine-category/parenting/" class="menu-item-link"><span class="menu_title">Parenting</span></a><div class="wr-megamenu-inner" style="width:600px; left:0;" data-container="600px"><div class='jsn-bootstrap3'><div  class='row ' style='background: none;padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;'><div class="col-md-6 col-sm-9" ><div  class='wr-element-container wr-element-submenu' ><div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/adoption/" title="Adoption"><span class=""><span class="ig-menu-title">Adoption</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/fatherhood/" title="Fatherhood"><span class=""><span class="ig-menu-title">Fatherhood</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/marriage-romance/" title="Marriage & Romance"><span class=""><span class="ig-menu-title">Marriage & Romance</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/money-finance/" title="Money & Finance"><span class=""><span class="ig-menu-title">Money & Finance</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/motherhood/" title="Motherhood"><span class=""><span class="ig-menu-title">Motherhood</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/new-parents/" title="New Parents"><span class=""><span class="ig-menu-title">New Parents</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/single-mom/" title="Single Mom"><span class=""><span class="ig-menu-title">Single Mom</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/twins/" title="Twins"><span class=""><span class="ig-menu-title">Twins</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/working-mom/" title="Working Mom"><span class=""><span class="ig-menu-title">Working Mom</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<script type='text/javascript'>( function ($) {
+				$( document ).ready( function ()
+				{
+					 $('.block-sub-menu').each(function() {
+
+						var _this = $(this);
+						var submenu_items = _this.find('> .submenu-items');
+						var count = submenu_items.length;
+
+						if (count > 0) {
+							var width = 100/count + '%';
+							submenu_items.css('width', width);
+						}
+
+					 })
+				});
+			} )( jQuery )</script></div></div><div class="col-md-6 col-sm-9" ><div  class='wr-element-container wr-element-megamenu_image' ><img src='http://52.11.48.215/wp-content/uploads/2015/05/parenting.jpg' class="no-appearance" /></div></div></div></div></div></li><li  class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item wr-megamenu-item level-0 mega-item wr-megamenu-fixed" ><a href="http://www.thelittleshopper.com/magazine-category/littles/" class="menu-item-link"><span class="menu_title">Littles</span></a><div class="wr-megamenu-inner" style="width:600px; left:0;" data-container="600px"><div class='jsn-bootstrap3'><div  class='row ' style='background: none;padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;'><div class="col-md-4 col-sm-6" ><div  class='wr-element-container wr-element-submenu' ><div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/baby/" title="Baby"><span class=""><span class="ig-menu-title">Baby</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+<ul class="submenu-items ">
+<li id="menu-item-1394" class="menu-item-1394"><a href="http://www.thelittleshopper.com/magazine-category/activities-baby/">Activities</a></li>
+<li id="menu-item-1395" class="menu-item-1395"><a href="http://www.thelittleshopper.com/magazine-category/care-baby/">Care</a></li>
+<li id="menu-item-1396" class="menu-item-1396"><a href="http://www.thelittleshopper.com/magazine-category/development-baby/">Development</a></li>
+<li id="menu-item-1397" class="menu-item-1397"><a href="http://www.thelittleshopper.com/magazine-category/disorders-baby/">Disorders</a></li>
+<li id="menu-item-1398" class="menu-item-1398"><a href="http://www.thelittleshopper.com/magazine-category/fashion-baby/">Fashion</a></li>
+<li id="menu-item-1399" class="menu-item-1399"><a href="http://www.thelittleshopper.com/magazine-category/food-nutrition-baby/">Food &#038; Nutrition</a></li>
+<li id="menu-item-1400" class="menu-item-1400"><a href="http://www.thelittleshopper.com/magazine-category/health-safety-baby/">Health &#038; Safety</a></li>
+
+</ul>
+</div>
+<script type='text/javascript'>( function ($) {
+				$( document ).ready( function ()
+				{
+					 $('.block-sub-menu').each(function() {
+
+						var _this = $(this);
+						var submenu_items = _this.find('> .submenu-items');
+						var count = submenu_items.length;
+
+						if (count > 0) {
+							var width = 100/count + '%';
+							submenu_items.css('width', width);
+						}
+
+					 })
+				});
+			} )( jQuery )</script></div></div><div class="col-md-4 col-sm-6" ><div  class='wr-element-container wr-element-submenu' ><div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/child/" title="Child"><span class=""><span class="ig-menu-title">Child</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+<ul class="submenu-items ">
+<li id="menu-item-1402" class="menu-item-1402"><a href="http://www.thelittleshopper.com/magazine-category/activities-child/">Activities</a></li>
+<li id="menu-item-1403" class="menu-item-1403"><a href="http://www.thelittleshopper.com/magazine-category/care-child/">Care</a></li>
+<li id="menu-item-1404" class="menu-item-1404"><a href="http://www.thelittleshopper.com/magazine-category/development-child/">Development</a></li>
+<li id="menu-item-1405" class="menu-item-1405"><a href="http://www.thelittleshopper.com/magazine-category/disorders-child/">Disorders</a></li>
+<li id="menu-item-1406" class="menu-item-1406"><a href="http://www.thelittleshopper.com/magazine-category/fashion-child/">Fashion</a></li>
+<li id="menu-item-1415" class="menu-item-1415"><a href="http://www.thelittleshopper.com/magazine-category/food-nutrition-child/">Food &#038; Nutrition</a></li>
+<li id="menu-item-1408" class="menu-item-1408"><a href="http://www.thelittleshopper.com/magazine-category/health-safety-child/">Health &#038; Safety</a></li>
+
+</ul>
+</div>
+<script type='text/javascript'>( function ($) {
+				$( document ).ready( function ()
+				{
+					 $('.block-sub-menu').each(function() {
+
+						var _this = $(this);
+						var submenu_items = _this.find('> .submenu-items');
+						var count = submenu_items.length;
+
+						if (count > 0) {
+							var width = 100/count + '%';
+							submenu_items.css('width', width);
+						}
+
+					 })
+				});
+			} )( jQuery )</script></div></div><div class="col-md-4 col-sm-6" ><div  class='wr-element-container wr-element-submenu' ><div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/toddler/" title="Toddler"><span class=""><span class="ig-menu-title">Toddler</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+<ul class="submenu-items ">
+<li id="menu-item-1409" class="menu-item-1409"><a href="http://www.thelittleshopper.com/magazine-category/activities-toddler/">Activities</a></li>
+<li id="menu-item-1410" class="menu-item-1410"><a href="http://www.thelittleshopper.com/magazine-category/care-toddler/">Care</a></li>
+<li id="menu-item-1411" class="menu-item-1411"><a href="http://www.thelittleshopper.com/magazine-category/development-toddler/">Development</a></li>
+<li id="menu-item-1412" class="menu-item-1412"><a href="http://www.thelittleshopper.com/magazine-category/disorders-toddler/">Disorders</a></li>
+<li id="menu-item-1413" class="menu-item-1413"><a href="http://www.thelittleshopper.com/magazine-category/fashion-toddler/">Fashion</a></li>
+<li id="menu-item-1416" class="menu-item-1416"><a href="http://www.thelittleshopper.com/magazine-category/food-nutrition-toddler/">Food &#038; Nutrition</a></li>
+<li id="menu-item-1417" class="menu-item-1417"><a href="http://www.thelittleshopper.com/magazine-category/health-safety-toddler/">Health &#038; Safety</a></li>
+
+</ul>
+</div>
+<script type='text/javascript'>( function ($) {
+				$( document ).ready( function ()
+				{
+					 $('.block-sub-menu').each(function() {
+
+						var _this = $(this);
+						var submenu_items = _this.find('> .submenu-items');
+						var count = submenu_items.length;
+
+						if (count > 0) {
+							var width = 100/count + '%';
+							submenu_items.css('width', width);
+						}
+
+					 })
+				});
+			} )( jQuery )</script></div></div></div></div></div></li><li  class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item wr-megamenu-item level-0 mega-item wr-megamenu-fixed" ><a href="http://www.thelittleshopper.com/magazine-category/food/" class="menu-item-link"><span class="menu_title">Food</span></a><div class="wr-megamenu-inner" style="width:600px; left:0;" data-container="600px"><div class='jsn-bootstrap3'><div  class='row ' style='background: none;padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;'><div class="col-md-6 col-sm-9" ><div  class='wr-element-container wr-element-submenu' ><div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/breakfast/" title="Breakfast"><span class=""><span class="ig-menu-title">Breakfast</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/desserts/" title="Desserts"><span class=""><span class="ig-menu-title">Desserts</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/dinner/" title="Dinner"><span class=""><span class="ig-menu-title">Dinner</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/drinks/" title="Drinks"><span class=""><span class="ig-menu-title">Drinks</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/lunch/" title="Lunch"><span class=""><span class="ig-menu-title">Lunch</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/party-feasts/" title="Party Feasts"><span class=""><span class="ig-menu-title">Party Feasts</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/snacks/" title="Snacks"><span class=""><span class="ig-menu-title">Snacks</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<script type='text/javascript'>( function ($) {
+				$( document ).ready( function ()
+				{
+					 $('.block-sub-menu').each(function() {
+
+						var _this = $(this);
+						var submenu_items = _this.find('> .submenu-items');
+						var count = submenu_items.length;
+
+						if (count > 0) {
+							var width = 100/count + '%';
+							submenu_items.css('width', width);
+						}
+
+					 })
+				});
+			} )( jQuery )</script></div></div><div class="col-md-6 col-sm-9" ><div  class='wr-element-container wr-element-megamenu_image' ><img src='http://52.11.48.215/wp-content/uploads/2015/05/food1.jpg' class="no-appearance" /></div></div></div></div></div></li><li  class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item wr-megamenu-item level-0 mega-item wr-megamenu-fixed" ><a href="http://www.thelittleshopper.com/magazine-category/reporting-live/" class="menu-item-link"><span class="menu_title">Reporting Live</span></a><div class="wr-megamenu-inner" style="width:600px; left:0;" data-container="600px"><div class='jsn-bootstrap3'><div  class='row ' style='background: none;padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;'><div class="col-md-6 col-sm-9" ><div  class='wr-element-container wr-element-submenu' ><div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/behind-the-scenes/" title="Behind the scenes"><span class=""><span class="ig-menu-title">Behind the scenes</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/news/" title="News"><span class=""><span class="ig-menu-title">News</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/celeb/" title="Celeb"><span class=""><span class="ig-menu-title">Celeb</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/empowerment/" title="Empowerment"><span class=""><span class="ig-menu-title">Empowerment</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine-category/join-a-street-team/" title="Join a Street Team"><span class=""><span class="ig-menu-title">Join a Street Team</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<div class="block-sub-menu">
+<a class=" caption" href="http://www.thelittleshopper.com/magazine/about-us-magazine/" title="About Us"><span class=""><span class="ig-menu-title">About Us</span></span></a>
+<div class="clearfix"></div>
+<span class="divider"></span>
+</div>
+<script type='text/javascript'>( function ($) {
+				$( document ).ready( function ()
+				{
+					 $('.block-sub-menu').each(function() {
+
+						var _this = $(this);
+						var submenu_items = _this.find('> .submenu-items');
+						var count = submenu_items.length;
+
+						if (count > 0) {
+							var width = 100/count + '%';
+							submenu_items.css('width', width);
+						}
+
+					 })
+				});
+			} )( jQuery )</script></div></div><div class="col-md-6 col-sm-9" ><div  class='wr-element-container wr-element-megamenu_image' ><img src='http://52.11.48.215/wp-content/uploads/2015/05/chil.jpeg' class="no-appearance" /></div></div></div></div></div></li><li  class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category wr-megamenu-item level-0 menu-default" ><a href="http://www.thelittleshopper.com/magazine-category/mommy-anonymous/" class="menu-item-link"><span class="menu_title">Mommy Anonymous</span></a></li></ul></div>
+		</div>
+		
+		
+
+		<div class="clear"></div>
+
+            </header>   
+	    
+	</div>
+	</div>
+  
+  <div id="container4" class="wrapper-wide">
+<div id="container41" style="width: 100%;">
+ <div class="headertop">
+		 <div class="logo">
+
+                    
+                    
+                        <a href="http://www.thelittleshopper.com"><img src="http://www.thelittleshopper.com/wp-content/uploads/2015/05/logo1.png" alt="" /></a>
+
+                    
+                    
+
+                </div>
+		 
+		
+		
+		<div class="search search-blog">
+		   <form id="searchform1" method="get" action="http://www.thelittleshopper.com/magazine/">
+<input id="s" type="text" onFocus="if(this.value=='Search')this.value=''" onBlur="if(this.value=='')this.value='Search'" name="s" value="Search">
+<input id="searchsubmit" class="button add_to_cart_button product_type_simple blog-page-search" type="submit" value="">
+<input type="hidden" value="magazine" name="post_type">
+</form>
+		</div>
+	    </div>
+<br clear="all">
+
+
+
+<ul id="" class="recent-posts-slider">
+		<li class="recent-post-slide">
+						
+			<a href="http://www.thelittleshopper.com/magazine/what-can-my-baby-do-at-month-one/">
+				<img src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/iStock_000053295158_Medium-1024x639.jpg"/>
+			</a>
+			<div class="rpf-title">
+				<!-- <p class="category">
+								</p> -->
+				<a href="http://www.thelittleshopper.com/magazine/what-can-my-baby-do-at-month-one/">What can my baby do at month one?			</div>
+		</li>
+				<li class="recent-post-slide">
+						
+			<a href="http://www.thelittleshopper.com/magazine/stress-where-it-comes-from-how-to-take-charge-of-it/">
+				<img src="http://www.thelittleshopper.com/wp-content/uploads/2015/08/r-WOMEN-AND-STRESS-large570.jpg"/>
+			</a>
+			<div class="rpf-title">
+				<!-- <p class="category">
+								</p> -->
+				<a href="http://www.thelittleshopper.com/magazine/stress-where-it-comes-from-how-to-take-charge-of-it/">Stress: where it comes from & how to take charge of it			</div>
+		</li>
+				<li class="recent-post-slide">
+						
+			<a href="http://www.thelittleshopper.com/magazine/five-common-fears-of-pregnancy-and-ways-to-fight-them/">
+				<img src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/iStock_000012982880_Medium-1024x682.jpg"/>
+			</a>
+			<div class="rpf-title">
+				<!-- <p class="category">
+								</p> -->
+				<a href="http://www.thelittleshopper.com/magazine/five-common-fears-of-pregnancy-and-ways-to-fight-them/">Five common fears of pregnancy and ways to fight them			</div>
+		</li>
+				<li class="recent-post-slide">
+						
+			<a href="http://www.thelittleshopper.com/magazine/how-to-know-your-baby-is-on-the-right-track-towards-development/">
+				<img src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/baby1-1024x619.jpg"/>
+			</a>
+			<div class="rpf-title">
+				<!-- <p class="category">
+								</p> -->
+				<a href="http://www.thelittleshopper.com/magazine/how-to-know-your-baby-is-on-the-right-track-towards-development/">How to know your baby is on the right track towards development			</div>
+		</li>
+				<li class="recent-post-slide">
+						
+			<a href="http://www.thelittleshopper.com/magazine/what-women-need-to-know-about-yoga/">
+				<img src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/SM340860-1024x683.jpg"/>
+			</a>
+			<div class="rpf-title">
+				<!-- <p class="category">
+								</p> -->
+				<a href="http://www.thelittleshopper.com/magazine/what-women-need-to-know-about-yoga/">What women need to know about yoga today			</div>
+		</li>
+				<li class="recent-post-slide">
+						
+			<a href="http://www.thelittleshopper.com/magazine/healthy-foods-snacks-eat-pregnancy/">
+				<img src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/iStock_000012926503_Medium-1024x768.jpg"/>
+			</a>
+			<div class="rpf-title">
+				<!-- <p class="category">
+								</p> -->
+				<a href="http://www.thelittleshopper.com/magazine/healthy-foods-snacks-eat-pregnancy/">10 Yummy (But Healthy) Foods and Snacks To Eat During Pregnancy!			</div>
+		</li>
+		</ul>
+
+</div>
+</div>
+<div id="container1" class="wrapper-wide">
+<div class="containerInner1 clearfix">
+<div class="one-half last" id="trending-post-left">
+
+                                
+                                    <h5>Trending Posts</h5><div class="tptn_posts tptn_posts_widget"><ul><li><div class="poststhumb"><a href="http://www.thelittleshopper.com/magazine/indias-new-mother-and-child-care-initiatives/" rel="bookmark"   class="tptn_link"><img src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/09BGMOTHER_amp_CHIL_918790f-150x150.jpg" alt="INDIA’S NEW MOTHER-AND-CHILD CARE INITIATIVES" title="INDIA’S NEW MOTHER-AND-CHILD CARE INITIATIVES" width="150" height="150" class="tptn_thumb tptn_featured" /></a></div><div class="tptn_after_thumb"><p class="tptn_date"> August 3, 2015</p><a href="http://www.thelittleshopper.com/magazine/indias-new-mother-and-child-care-initiatives/" rel="bookmark"   class="tptn_link"><h3 class="tptn_title">INDIA’S NEW MOTHER-AND-CHILD CARE INITIATIVES</h3></a><h4>  by <span class="tptn_author"><a href="http://www.thelittleshopper.com/author/pradeep-kumar-s/">Pradeep Kumar S</a></span></h4> <span class="tptn_excerpt"> How India is watching out for her baby's: the mother&hellip;</span></span></li><li><div class="poststhumb"><a href="http://www.thelittleshopper.com/magazine/baby-weve-got-you-covered-the-little-shopper/" rel="bookmark"   class="tptn_link"><img src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/iStock_000057868464_Medium1-150x150.jpg" alt="Baby, We&#8217;ve Got You Covered &#8211; The Little Shopper" title="Baby, We&#8217;ve Got You Covered &#8211; The Little Shopper" width="150" height="150" class="tptn_thumb tptn_featured" /></a></div><div class="tptn_after_thumb"><p class="tptn_date"> August 3, 2015</p><a href="http://www.thelittleshopper.com/magazine/baby-weve-got-you-covered-the-little-shopper/" rel="bookmark"   class="tptn_link"><h3 class="tptn_title">Baby, We&#8217;ve Got You Covered &#8211; The Little Shopper</h3></a><h4>  by <span class="tptn_author"><a href="http://www.thelittleshopper.com/author/pradeep-kumar-s/">Pradeep Kumar S</a></span></h4> <span class="tptn_excerpt"> “You’re pregnant!” The words that make you famous for the&hellip;</span></span></li><li><div class="poststhumb"><a href="http://www.thelittleshopper.com/magazine/why-is-folic-acid-supplement-crucial-during-pregnancy/" rel="bookmark"   class="tptn_link"><img src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/Untitled-150x150.png" alt="Why is folic acid supplement crucial during pregnancy?" title="Why is folic acid supplement crucial during pregnancy?" width="150" height="150" class="tptn_thumb tptn_featured" /></a></div><div class="tptn_after_thumb"><p class="tptn_date"> August 4, 2015</p><a href="http://www.thelittleshopper.com/magazine/why-is-folic-acid-supplement-crucial-during-pregnancy/" rel="bookmark"   class="tptn_link"><h3 class="tptn_title">Why is folic acid supplement crucial during pregnancy?</h3></a><h4>  by <span class="tptn_author"><a href="http://www.thelittleshopper.com/author/pradeep-kumar-s/">Pradeep Kumar S</a></span></h4> <span class="tptn_excerpt"> Learn why the first step to healthy pregnancy starts with&hellip;</span></span></li></ul></div>
+                                 
+
+ </div>
+
+  <div class="one-half last">
+
+<h5>Subscribe</h5>
+<div class="textwidget">
+<div class="subscriber">
+<div class="half-width fl">
+ <p> Get  updates for your little ones and you!</p> 
+<p>Start by selecting what describes you best! </p>
+<img src="http://thelittleshopper.com/wp-content/uploads/2015/05/pick-yours.png" class="mb30">
+</div>
+<div class="center half-width fl">
+<a href="#concieveusers" id="concieve" rel="group"><img src="http://thelittleshopper.com/wp-content/uploads/2015/05/conceive.png" style="margin:3px 20px;"></a>
+<a href="#pregancyusers" id="pregancy" rel="group"><img src="http://thelittleshopper.com/wp-content/uploads/2015/05/pregnant.png" style="margin:3px 20px;"></a>
+<a href="#parentusers" id="parent" rel="group"><img src="http://thelittleshopper.com/wp-content/uploads/2015/05/parent.png"style="margin:3px 20px;"></a>
+</div>
+
+<div id="concieveusers" style="display: none;">
+<header><h3>Trying To Concieve Subscription</h3></header>   
+
+<style>
+	
+	#concieveusers p, #pregancyusers p, #parentusers p { margin-bottom:0px ; }
+	p.errors {
+color: red;
+font-size: 12px;
+margin-bottom: 10px !important;
+}
+</style>
+
+ <script type="text/javascript">
+
+
+jQuery(document).ready(function() {
+
+    // process the form
+    jQuery("#form1_submit").on('click',function(event) {
+		
+		
+		 $("#name_error").html("");
+	
+	  $("#email_error").html("");
+	  $("#password_error").html("");
+	  $("#offer_error").html("");
+	  
+	  var validation =true;
+	  
+	  if ($("#Name").val()=="") {
+		 $("#name_error").html("Please enter Name");
+		 validation =false;
+	  }
+	 
+	 var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+ 
+        var emailaddressVal = $("#Email").val();
+	  if (emailaddressVal =="") {
+		 $("#email_error").html("Please enter Email id");
+		 validation =false;
+	  }
+	   else if(!emailReg.test(emailaddressVal)) {
+           $("#email_error").html("Enter a valid email address");
+           validation =false;
+        }
+
+	 
+	  
+
+	  if ($("#Password").val()=="") {
+		 $("#password_error").html("Please enter Password");
+		 validation =false;
+	  }
+	  
+ if (!($('#offerscheckbox').is(':checked'))) {
+            
+		 $("#offer_error").html("Accept Terms");    
+			validation = false;
+        }
+
+
+	  
+	  if (validation) {
+	
+	
+  var name = jQuery("#Name").val();
+  var email = jQuery("#Email").val();
+  var password = jQuery("#Password").val();
+   var dataString = { 'Name' : name ,'Email':email ,'Password':password};
+    jQuery.ajax({
+      type: "POST",
+		url: "http://www.thelittleshopper.com/wp-content/themes/blanco/checkpopup.php",
+      data: dataString,
+	  cache: false,
+      success: function(response) {
+		console.log(response);
+			 var trimmedResponse = $.trim(response)
+			if (trimmedResponse == 'failed') {
+
+			jQuery('#concieveusers').html("<div id='thanks'><h2>Sorry! Your Email ID is already registered</h2></div>");
+		window.location.reload();
+			}
+			else if (trimmedResponse == 'success') {
+				jQuery('#concieveusers').html("<div id='thanks'></div>");
+				 jQuery('#thanks').html("<h2> Form Submitted!</h2>")
+				 .append("<p>We will be in touch soon.</p>")
+			    window.location.reload();
+			
+			}
+			else if (trimmedResponse == 'notsuccessful') {
+			jQuery('#concieveusers').html("<div id='thanks'><h2>Sorry! Username its already registered</h2></div>");
+			 
+			
+			}
+			else
+			{
+				
+			}
+			
+      }
+    });
+      return false;
+
+	  }
+	  else{
+		 return false;
+	  }
+	  
+
+    });
+
+});
+</script>
+ 
+ 
+ 
+
+<form method="POST" name="form1" id="form1" >
+<p><input type="text" name="Name" id="Name" size="43" placeholder="Name"></p>
+<p class="errors" id="name_error"></p>
+<p><input type="text" name="Email" id="Email" size="43" placeholder="Email"></p>
+<p class="errors" id="email_error"></p>
+<p><input type="password" name="Password" id="Password" size="43" placeholder="Password"></p>
+<p class="errors" id="password_error"></p>
+<div class="form-field offers">
+<div class="ez-checkbox ez-checked">
+<input id="offerscheckbox" class="ez-hide" type="checkbox" name="offerscheckbox">
+<p class="errors" id="offer_error"></p>
+</div>
+<label for="offers" class="mainlittlepolicy">
+<p class="littlepolicyspan">By checking, I agree to The Little <a target="_blank" href="#" sl-processed="1" class="littlepolicy" >Privacy Policy</a> and <a target="_blank" href="#" sl-processed="1" class="littlepolicy" > Terms of Use.</a>
+</p>
+</label>
+
+</div>
+
+
+<p class="littlepolicyinput"><input type="submit" value="Submit" id="form1_submit" name="form1_submit"></p>
+
+<div id="log-in-option">
+<span>Already have a Subscription account?</span>
+<br>
+<a href="#concieveloginform" id="concievelogin" rel="group">Log in</a>
+
+</div>
+
+</form>
+
+
+
+</div>
+<script type="text/javascript">
+
+$(function() {
+    $("#concievelogin").fancybox({
+        'onStart': function() { $("#concieveloginform").css("display","block"); },            
+        'onClosed': function() { $("#concieveloginform").css("display","none"); }
+    });
+});
+</script>
+ <!--
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+
+
+    jQuery("#Login_form_submit").on('click',function(event) {
+		
+		
+	
+	  $("#login_email_error").html("");
+	  $("#login_password_error").html("");
+
+	  
+	  var validation =true;
+	  
+
+	 
+	 var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+ 
+        var emailaddressVal1 = $("#Login_Email").val();
+	  if (emailaddressVal1 =="") {
+		 $("#login_email_error").html("Please enter Email id");
+		 validation =false;
+	  }
+	   else if(!emailReg.test(emailaddressVal1)) {
+           $("#login_email_error").html("Enter a valid email address");
+           validation =false;
+        }
+
+	 
+	  
+
+	  if ($("#Login_Password").val()=="") {
+		 $("#login_password_error").html("Please enter Password");
+		 validation =false;
+	  }
+	  
+
+
+
+	  
+	  if (validation) {
+	
+	
+  var login_email = jQuery("#Login_Email").val();
+  var login_password = jQuery("#Login_Password").val();
+   var dataString = { 'Login_Email':login_email ,'Login_Password':login_password};
+    var base = "http://www.thelittleshopper.com/magazine/myaccount/";
+
+ 
+    
+    jQuery.ajax({
+      type: "POST",
+		url: "http://www.thelittleshopper.com/wp-content/themes/blanco/userloginform.php",
+      data: dataString,
+	  cache: false,
+      success: function(response) {
+		console.log(response);
+			
+			if (response == 'notmail') {
+			jQuery('#concieveloginform').html("<div id='thanks'></div>");
+				 jQuery('#thanks').html("<h2>Sorry! Your Email ID is not registered</h2>");
+		window.location.reload();
+			}
+			else if (response == 'success') {
+				jQuery('#concieveloginform').html("<div id='thanks'></div>");
+				 jQuery('#thanks').html("<h2> Loginned Successful</h2>")
+				 .append("<p>We will be in touch soon.</p>")
+				
+			   window.location.href = base; 
+			
+			}
+		    else if (response == 'notvendor') {
+				jQuery('#concieveloginform').html("<div id='thanks'></div>");
+				 jQuery('#thanks').html("<h2>Sorry! Your Email ID is Registered Vendor.</h2>");
+		window.location.reload();
+			
+			}
+			else
+			{
+				
+			}
+			
+      }
+    });
+      return false;
+
+	  }
+	  else{
+		 return false;
+	  }
+	  
+
+    });
+
+});
+</script>   -->
+<div id="concieveloginform" style="display: none;">
+<header><h3>Trying To Concieve Login Form</h3></header>
+
+ <div class="login-form">
+ 
+
+		<form name="loginform" id="loginform" action="http://www.thelittleshopper.com/wp-login.php" method="post">
+			
+			<p class="login-username">
+				<label for="user_login">Username</label>
+				<input type="text" name="log" id="user_login" class="input" value="" size="20" />
+			</p>
+			<p class="login-password">
+				<label for="user_pass">Password</label>
+				<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
+			</p>
+			
+			<p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember Me</label></p>
+			<p class="login-submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Log In" />
+				<input type="hidden" name="redirect_to" value="http://www.thelittleshopper.com/magazine/myaccount/" />
+			</p>
+			
+		</form>         <div class="bottom-links">
+                 <div class ="home-link"> <a href="http://www.thelittleshopper.com "> Go to Homepage</a></div>
+				<div class ="reset-link"> <a href="http://www.thelittleshopper.com/magazine/reset-password/">Lost Password</a></div>
+         </div>
+</div>
+
+
+
+
+<!--
+<form method="POST" name="loginform" id="loginform" action="http://www.thelittleshopper.com/magazine/myaccount/ " >
+
+<p><input type="text" name="Login_Email" id="Login_Email" size="43" placeholder="Email"></p>
+<p class="errors" id="Login_email_error"></p>
+<p><input type="password" name="Login_Password" id="Login_Password" size="43" placeholder="Password"></p>
+<p class="errors" id="password_error"></p>
+<p class="littlepolicyinput">
+	<input type="submit" value="Submit" id="Login_form_submit" name="Login_form_submit"></p>
+
+</form>
+-->
+</div>
+
+
+<div id="pregancyusers" style="display:none">
+<header><h3> Glad you are expecting!
+
+Would you love to know what's happening to your baby every week.</h3></header>   
+
+ <script type="text/javascript">
+
+
+jQuery(document).ready(function() {
+
+    // process the form
+    jQuery("#Submit1").on('click',function(event) {
+		
+		
+		 $("#name_error1").html("");
+	
+	  $("#email_error1").html("");
+	  $("#password_error1").html("");
+	  $("#offer_error1").html("");
+	  
+	  var validation =true;
+	  
+	  if ($("#Name1").val()=="") {
+		 $("#name_error1").html("Please enter Name");
+		 validation =false;
+	  }
+	 
+	 var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+ 
+        var emailaddressVal = $("#Email1").val();
+	  if (emailaddressVal =="") {
+		 $("#email_error1").html("Please enter Email id");
+		 validation =false;
+	  }
+	   else if(!emailReg.test(emailaddressVal)) {
+           $("#email_error1").html("Enter a valid email address");
+           validation =false;
+        }
+
+	 
+	  
+
+	  if ($("#Password1").val()=="") {
+		 $("#password_error1").html("Please enter Password");
+		 validation =false;
+	  }
+	  
+ if (!($('#offerscheckbox1').is(':checked'))) {
+            
+		 $("#offer_error1").html("Accept Terms");    
+			validation = false;
+        }
+
+	
+	 
+	  
+	 
+
+	  
+	  if (validation) {
+	
+	 var name1 = jQuery("#Name1").val();
+  var email1 = jQuery("#Email1").val();
+  var password1 = jQuery("#Password1").val();
+   var dataString = { 'Name1' : name1 ,'Email1':email1 ,'Password1':password1};
+    jQuery.ajax({
+      type: "POST",
+		url: "http://www.thelittleshopper.com/wp-content/themes/blanco/checkpopup1.php",
+      data: dataString,
+	  cache: false,
+      success: function(response) {
+		console.log(response);
+			 var trimmedResponse = $.trim(response)
+			if (trimmedResponse  == 'failed') {
+			jQuery('#pregancyusers').html("<div id='thanks'></div>");
+				 jQuery('#thanks').html("<h2>Sorry! Your Email ID is already registered</h2>")
+				 window.location.reload();
+				
+			}
+				else if (trimmedResponse== 'success') {
+				jQuery('#pregancyusers').html("<div id='thanks'></div>");
+				 jQuery('#thanks').html("<h2> Form Submitted!</h2>")
+				 .append("<p>We will be in touch soon.</p>")
+			    window.location.reload();
+			
+			}
+				else if (trimmedResponse == 'notsuccessful') {
+			jQuery('#pregancyusers').html("<div id='thanks'><h2>Sorry! Username its already registered</h2></div>");
+			}
+			else
+			{
+				
+			}
+      }
+    });
+      return false;
+       
+	  }
+	  else{
+		 return false;
+	  }
+	  
+
+    
+        //event.preventDefault();
+    });
+
+});
+</script>
+
+<form method="POST"  name="form2">
+<p><input type="text" name="Name1" id="Name1" size="43" placeholder="Name"></p>
+<p class="errors" id="name_error1"></p>
+<p><input type="text" name="Email1" id="Email1" size="43" placeholder="Email"></p>
+<p class="errors" id="email_error1"></p>
+<p><input type="password" name="Password1" id="Password1" size="43" placeholder="Password"></p>
+<p class="errors" id="password_error1"></p>
+<div class="form-field offers">
+<div class="ez-checkbox ez-checked">
+<input id="offerscheckbox1" class="ez-hide" type="checkbox" name="offerscheckbox1">
+<p class="errors" id="offer_error1"></p>
+</div>
+<label for="offers" class="mainlittlepolicy">
+<p class="littlepolicyspan">By checking, I agree to The Little <a target="_blank" href="#" sl-processed="1" class="littlepolicy">Privacy Policy</a> and <a target="_blank" href="#" sl-processed="1" class="littlepolicy">Terms of Use.</a></p>
+</label>
+</div>
+
+<p class="littlepolicyinput"><input type="submit" id="Submit1" value="Submit" name="Submit1"></p>
+
+</form>
+<div id="log-in-option">
+<span>Already have a Subscription account?</span>
+<br>
+<a href="#pregancyloginform" id="pregancylogin" rel="group">Log in</a>
+</div>
+</div>
+<script type="text/javascript">
+
+$(function() {
+    $("#pregancylogin").fancybox({
+        'onStart': function() { $("#pregancyloginform").css("display","block"); },            
+        'onClosed': function() { $("#pregancyloginform").css("display","none"); }
+    });
+});
+</script>
+ 
+<div id="pregancyloginform" style="display: none;">
+<header><h3>Login Form</h3></header>
+
+ <div class="login-form">
+ 
+
+		<form name="loginform" id="loginform" action="http://www.thelittleshopper.com/wp-login.php" method="post">
+			
+			<p class="login-username">
+				<label for="user_login">Username</label>
+				<input type="text" name="log" id="user_login" class="input" value="" size="20" />
+			</p>
+			<p class="login-password">
+				<label for="user_pass">Password</label>
+				<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
+			</p>
+			
+			<p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember Me</label></p>
+			<p class="login-submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Log In" />
+				<input type="hidden" name="redirect_to" value="http://www.thelittleshopper.com/magazine/myaccount/" />
+			</p>
+			
+		</form>         <div class="bottom-links">
+                 <div class ="home-link"> <a href="http://www.thelittleshopper.com "> Go to Homepage</a></div>
+				<div class ="reset-link"> <a href="http://www.thelittleshopper.com/magazine/reset-password/">Lost Password</a></div>
+         </div>
+</div>
+
+
+</div>
+
+<div id="parentusers" style="display:none">
+<header><h3>Get to know what your child would like.</h3></header>   
+
+
+ <script type="text/javascript">
+
+
+jQuery(document).ready(function() {
+
+    // process the form
+    jQuery("#Submit2").on('click',function(event) {
+		
+		
+		 $("#name_error2").html("");
+	
+	  $("#email_error2").html("");
+	  $("#password_error2").html("");
+	  $("#offer_error2").html("");
+	  
+	  var validation =true;
+	  
+	  if ($("#Name2").val()=="") {
+		 $("#name_error2").html("Please enter Name");
+		 validation =false;
+	  }
+	 
+	 var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+ 
+        var emailaddressVal = $("#Email2").val();
+	  if (emailaddressVal =="") {
+		 $("#email_error2").html("Please enter Email id");
+		 validation =false;
+	  }
+	   else if(!emailReg.test(emailaddressVal)) {
+           $("#email_error2").html("Enter a valid email address");
+           validation =false;
+        }
+
+	 
+	  
+
+	  if ($("#Password2").val()=="") {
+		 $("#password_error2").html("Please enter Password");
+		 validation =false;
+	  }
+	  
+ if (!($('#offerscheckbox2').is(':checked'))) {
+            
+		 $("#offer_error2").html("Accept Terms");    
+			validation = false;
+        }
+
+	
+	 
+	  
+	 
+
+	  
+	  if (validation) {
+	
+	var name2 = jQuery("#Name2").val();
+  var email2 = jQuery("#Email2").val();
+  var password2 = jQuery("#Password2").val();
+   var dataString = { 'Name2' : name2 ,'Email2':email2 ,'Password2':password2};
+    jQuery.ajax({
+      type: "POST",
+		url: "http://www.thelittleshopper.com/wp-content/themes/blanco/checkpopup2.php",
+      data: dataString,
+	  cache: false,
+      success: function(response) {
+		console.log(response);
+			 var trimmedResponse = $.trim(response)
+			if (trimmedResponse == 'failed') {
+			jQuery('#parentusers').html("<div id='thanks'></div>");
+				 jQuery('#thanks').html("<h2>Sorry! Your Email ID is already registered</h2>")
+				window.location.reload();
+			}
+			
+				else if (trimmedResponse == 'success') {
+				jQuery('#parentusers').html("<div id='thanks'></div>");
+				 jQuery('#thanks').html("<h2> Form Submitted!</h2>")
+				 .append("<p>We will be in touch soon.</p>")
+			    window.location.reload();
+			
+			}
+			else if (trimmedResponse == 'notsuccessful') {
+			jQuery('#parentusers').html("<div id='thanks'><h2>Sorry! Username its already registered</h2></div>");
+			}
+			else
+			{
+				
+			}
+      }
+    });
+      return false;
+       
+	  }
+	  else{
+		 return false;
+	  }
+	  
+
+    
+        //event.preventDefault();
+    });
+
+});
+</script>
+
+<form method="POST" name="form3">
+<p><input type="text" name="Name2" id="Name2" size="43" placeholder="Name"></p>
+<p class="errors" id="name_error2"></p>
+<p><input type="text" name="Email2" id="Email2" size="43" placeholder="Email"></p>
+<p class="errors" id="email_error2"></p>
+<p><input type="password" name="Password2" id="Password2" size="43" placeholder="Password"></p>
+<p class="errors" id="password_error2"></p>
+<div class="form-field offers">
+<div class="ez-checkbox ez-checked">
+<input id="offerscheckbox2" class="ez-hide" type="checkbox" name="offerscheckbox2">
+<p class="errors" id="offer_error2"></p>
+</div>
+<label for="offers" class="mainlittlepolicy">
+<p class="littlepolicyspan">By checking, I agree to The Little <a target="_blank" href="#" sl-processed="1" class="littlepolicy">Privacy Policy</a> and <a target="_blank" href="#" sl-processed="1" class="littlepolicy">Terms of Use.</a></p>
+</label>
+</div>
+
+<p class="littlepolicyinput"><input type="submit" id="Submit2" value="Submit" name="Submit2"></p>
+
+</form>
+<div id="log-in-option">
+<span>Already have a Subscription account?</span>
+<br>
+<a href="#parentloginform" id="parentlogin" rel="group">Log in</a>
+</div>
+</div>
+
+
+<script type="text/javascript">
+
+$(function() {
+    $("#parentlogin").fancybox({
+        'onStart': function() { $("#parentloginform").css("display","block"); },            
+        'onClosed': function() { $("#parentloginform").css("display","none"); }
+    });
+});
+</script>
+
+<div id="parentloginform" style="display: none;">
+<header><h3>Login Form</h3></header>
+
+ <div class="login-form">
+ 
+
+		<form name="loginform" id="loginform" action="http://www.thelittleshopper.com/wp-login.php" method="post">
+			
+			<p class="login-username">
+				<label for="user_login">Username</label>
+				<input type="text" name="log" id="user_login" class="input" value="" size="20" />
+			</p>
+			<p class="login-password">
+				<label for="user_pass">Password</label>
+				<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
+			</p>
+			
+			<p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember Me</label></p>
+			<p class="login-submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button-primary" value="Log In" />
+				<input type="hidden" name="redirect_to" value="http://www.thelittleshopper.com/magazine/myaccount/" />
+			</p>
+			
+		</form>         <div class="bottom-links">
+                 <div class ="home-link"> <a href="http://www.thelittleshopper.com "> Go to Homepage</a></div>
+				<div class ="reset-link"> <a href="http://www.thelittleshopper.com/magazine/reset-password/">Lost Password</a></div>
+         </div>
+</div>
+</div>
+<br clear="all">
+</div>
+
+<div class="follow-us-blog">
+
+<h5> Follow Us </h5>
+  
+<a href="https://www.facebook.com/TheLittleShopperIndia"><img src="http://thelittleshopper.com/wp-content/uploads/2015/05/facebook_circle.png"></a>
+
+<a href="https://twitter.com/TheLSIndia"><img src="http://thelittleshopper.com/wp-content/uploads/2015/05/twitter_circle.png"></a>
+
+<a href="https://plus.google.com/+Thelittleshopper"><img src="http://www.thelittleshopper.com/wp-content/uploads/2015/08/googleplus.png"></a>
+
+<a href="#"><img src="http://thelittleshopper.com/wp-content/uploads/2015/05/instagram_circle.png"></a>
+
+<a href="https://www.pinterest.com/TheLSIndia/"><img src="http://thelittleshopper.com/wp-content/uploads/2015/05/Pinterest_circle.png"></a>
+
+</div>
+</div>
+
+                                    
+
+                                <?php// else: ?>
+
+                                    
+                                 
+	
+ </div>
+ 
+</div>
+</div>
+
+    <script type="text/javascript">
+$j = jQuery.noConflict();
+$j(document).ready(function() {$j("#flexiselDemo1234").flexisel({
+visibleItems: 5,
+animationSpeed: 1000,
+autoPlay: true,
+autoPlaySpeed: 10000,
+pauseOnHover: true,
+enableResponsiveBreakpoints: true,
+responsiveBreakpoints: {
+portrait: {
+changePoint:480,
+visibleItems: 1
+},
+landscape: {
+changePoint:640,
+visibleItems: 2
+},
+landscape: {
+changePoint:800,
+visibleItems: 3
+},
+tablet: {
+changePoint:1300,
+visibleItems: 5
+}
+}
+});
+});
+</script>
+
+<div id="container6" class="wrapper-wide style="width: 100%;">
+<div class="containersix" style="float: left; width: 100%;">
+<div class="containerInner clearfix">
+ 
+<h5>Latest Articles</h5>
+</div>
+			 
+<ul id="flexiselDemo1234" class="nbs-flexisel-ul" style="left: -644px;">
+<li class="main-div nbs-flexisel-item latest-slider" style="width: 150px;">
+<div class="rpf-main-div">
+<div class="rpf-slider">
+ <a href="http://www.thelittleshopper.com/magazine/what-can-my-baby-do-at-month-one/"><img width="300" height="187" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/iStock_000053295158_Medium-300x187.jpg" class="attachment-medium wp-post-image" alt="Adorable baby" /></a>
+ <p class="caption1"><a href="http://www.thelittleshopper.com/magazine/what-can-my-baby-do-at-month-one/">What can my baby do at month one?</a></p>
+
+<p class="excerpt1"><p>The developments to look out for as your baby turns a month old</p>
+</p>  
+</div>
+</div>
+<p></p>
+
+
+</li>
+
+ <li class="main-div nbs-flexisel-item latest-slider" style="width: 150px;">
+<div class="rpf-main-div">
+<div class="rpf-slider">
+ <a href="http://www.thelittleshopper.com/magazine/stress-where-it-comes-from-how-to-take-charge-of-it/"><img width="300" height="125" src="http://www.thelittleshopper.com/wp-content/uploads/2015/08/r-WOMEN-AND-STRESS-large570-300x125.jpg" class="attachment-medium wp-post-image" alt="Women full of stress" /></a>
+ <p class="caption1"><a href="http://www.thelittleshopper.com/magazine/stress-where-it-comes-from-how-to-take-charge-of-it/">Stress: where it comes from &#038; how to take charge of it</a></p>
+
+<p class="excerpt1"><p>Stress is common in all people, throughout all days. Learn what happens to your body when you don&#8217;t control stress &#038; what happens when you do. </p>
+</p>  
+</div>
+</div>
+<p></p>
+
+
+</li>
+
+ <li class="main-div nbs-flexisel-item latest-slider" style="width: 150px;">
+<div class="rpf-main-div">
+<div class="rpf-slider">
+ <a href="http://www.thelittleshopper.com/magazine/five-common-fears-of-pregnancy-and-ways-to-fight-them/"><img width="300" height="200" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/iStock_000012982880_Medium-300x200.jpg" class="attachment-medium wp-post-image" alt="Pregnancy fears" /></a>
+ <p class="caption1"><a href="http://www.thelittleshopper.com/magazine/five-common-fears-of-pregnancy-and-ways-to-fight-them/">Five common fears of pregnancy and ways to fight them</a></p>
+
+<p class="excerpt1"><p>pregnancy is a mixed pot of emotions. While you are not the only one who fears the unknown, learn the common fears women face and ways to beat them!</p>
+</p>  
+</div>
+</div>
+<p></p>
+
+
+</li>
+
+ <li class="main-div nbs-flexisel-item latest-slider" style="width: 150px;">
+<div class="rpf-main-div">
+<div class="rpf-slider">
+ <a href="http://www.thelittleshopper.com/magazine/how-to-know-your-baby-is-on-the-right-track-towards-development/"><img width="300" height="181" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/baby1-300x181.jpg" class="attachment-medium wp-post-image" alt="baby" /></a>
+ <p class="caption1"><a href="http://www.thelittleshopper.com/magazine/how-to-know-your-baby-is-on-the-right-track-towards-development/">How to know your baby is on the right track towards development</a></p>
+
+<p class="excerpt1"><p>Review this checklist to know if your baby is on the right track towards development</p>
+</p>  
+</div>
+</div>
+<p></p>
+
+
+</li>
+
+ <li class="main-div nbs-flexisel-item latest-slider" style="width: 150px;">
+<div class="rpf-main-div">
+<div class="rpf-slider">
+ <a href="http://www.thelittleshopper.com/magazine/what-women-need-to-know-about-yoga/"><img width="300" height="200" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/SM340860-300x200.jpg" class="attachment-medium wp-post-image" alt="Women Yoga" /></a>
+ <p class="caption1"><a href="http://www.thelittleshopper.com/magazine/what-women-need-to-know-about-yoga/">What women need to know about yoga today</a></p>
+
+<p class="excerpt1"><p>Yoga&#8217;s not just an exercise or a morning stretch. Learn how yoga affects your body and lifestyle as a woman today</p>
+</p>  
+</div>
+</div>
+<p></p>
+
+
+</li>
+
+ <li class="main-div nbs-flexisel-item latest-slider" style="width: 150px;">
+<div class="rpf-main-div">
+<div class="rpf-slider">
+ <a href="http://www.thelittleshopper.com/magazine/healthy-foods-snacks-eat-pregnancy/"><img width="300" height="225" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/iStock_000012926503_Medium-300x225.jpg" class="attachment-medium wp-post-image" alt="Pregnancy Food" /></a>
+ <p class="caption1"><a href="http://www.thelittleshopper.com/magazine/healthy-foods-snacks-eat-pregnancy/">10 Yummy (But Healthy) Foods and Snacks To Eat During Pregnancy!</a></p>
+
+<p class="excerpt1"><p>Pregnancy shouldn&#8217;t stop you from enjoying the foods you love most</p>
+</p>  
+</div>
+</div>
+<p></p>
+
+
+</li>
+
+ <li class="main-div nbs-flexisel-item latest-slider" style="width: 150px;">
+<div class="rpf-main-div">
+<div class="rpf-slider">
+ <a href="http://www.thelittleshopper.com/magazine/empowering-report-single-moms-in-india/"><img width="300" height="200" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/mom-child-lg-300x200.jpg" class="attachment-medium wp-post-image" alt="Single mom with her kid" /></a>
+ <p class="caption1"><a href="http://www.thelittleshopper.com/magazine/empowering-report-single-moms-in-india/">EMPOWERING REPORT: SINGLE MOMS IN INDIA</a></p>
+
+<p class="excerpt1"><p>The single moms of India show us that it&#8217;s possible to be an independent and successful mom</p>
+</p>  
+</div>
+</div>
+<p></p>
+
+
+</li>
+
+ <li class="main-div nbs-flexisel-item latest-slider" style="width: 150px;">
+<div class="rpf-main-div">
+<div class="rpf-slider">
+ <a href="http://www.thelittleshopper.com/magazine/five-ways-to-protect-your-baby-against-mosquitoes/"><img width="300" height="200" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/mosquito-bite-300x200.jpg" class="attachment-medium wp-post-image" alt="mosquito biting baby" /></a>
+ <p class="caption1"><a href="http://www.thelittleshopper.com/magazine/five-ways-to-protect-your-baby-against-mosquitoes/">Five ways to protect your baby against mosquitoes</a></p>
+
+<p class="excerpt1"><p>Tips to protect your baby from those pesky little insects </p>
+</p>  
+</div>
+</div>
+<p></p>
+
+
+</li>
+
+ <li class="main-div nbs-flexisel-item latest-slider" style="width: 150px;">
+<div class="rpf-main-div">
+<div class="rpf-slider">
+ <a href="http://www.thelittleshopper.com/magazine/to-do-or-not-to-do-sex-myths-vs-reality/"><img width="300" height="227" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/bed-300x227.jpg" class="attachment-medium wp-post-image" alt="Sex: Myths &amp; Reality" /></a>
+ <p class="caption1"><a href="http://www.thelittleshopper.com/magazine/to-do-or-not-to-do-sex-myths-vs-reality/">To Do Or Not To Do: Sex Myths Vs Reality</a></p>
+
+<p class="excerpt1"><p> Get your facts right ladies! Just so you know what is worth doing. </p>
+</p>  
+</div>
+</div>
+<p></p>
+
+
+</li>
+
+ <li class="main-div nbs-flexisel-item latest-slider" style="width: 150px;">
+<div class="rpf-main-div">
+<div class="rpf-slider">
+ <a href="http://www.thelittleshopper.com/magazine/health-tips-to-live-healthy-life/"><img width="300" height="260" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/iStock_000049123168_Medium-300x260.jpg" class="attachment-medium wp-post-image" alt="Health Tips for women living healthy lives" /></a>
+ <p class="caption1"><a href="http://www.thelittleshopper.com/magazine/health-tips-to-live-healthy-life/">13 powerful health tips to live a really healthy life</a></p>
+
+<p class="excerpt1"><p>The 13 powerful health tips for women to lead a life full of health, peace, and joy</p>
+</p>  
+</div>
+</div>
+<p></p>
+
+
+</li>
+
+ </ul>
+
+</div>
+</div>
+
+<div id="container3" class="wrapper-wide" style="background-color: #ccc;">
+<div id="containerthree">
+
+<div class="containerInner1 clearfix" style="background-color: #FFF;">
+ <h5>Stay Connected</h5>
+
+                        <div class="col4-set">
+
+                            <div class="col-1">
+
+                                
+                                    			<div class="textwidget"><a data-pin-do="embedPin" href="http://www.pinterest.com/pin/99360735500167749/"></a>
+<!-- Please call pinit.js only once per page -->
+<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script></div>
+		
+                                 
+
+                            </div>
+
+                            <div class="col-2">
+
+                                
+                                    			<div class="textwidget"><a class="twitter-timeline"  href="https://twitter.com/TheLSIndia" data-widget-id="606116024820178944">Tweets by @TheLSIndia</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		
+                                 
+
+                            </div>
+
+                            <div class="col-3">
+
+                                
+                                    			<div class="textwidget"><div class="fb-page" data-href="https://www.facebook.com/TheLittleShopperIndia" data-width="100%" data-height="320px" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/TheLittleShopperIndia"><a href="https://www.facebook.com/TheLittleShopperIndia">Little Shopper India</a></blockquote></div></div></div>
+		
+                                 
+
+                            </div>
+
+                            <div class="col-4">
+
+                                
+                                    			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/BabyOye" data-widget-id="606116024820178944">Tweets by @BabyOye</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		
+                                   
+
+                            </div>
+
+                            <div class="clear"></div>
+
+                        </div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id="container345" class="wrapper-wide" style="background-color: #ccc;">
+<div id="container345" style="float: left; width: 100%;">
+<style>
+ #container345 h5 {
+    font-family: oswald;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+</style>
+<div class="containerInner1 clearfix" style="background-color: #FFF; display: none;">
+ <h5>Little Social</h5>
+
+                        <div class="col2-set" style="width: 100%;">
+
+                            <div class="col-1a" style="width: 50%; float: left;">
+
+                                
+                                    			<div class="textwidget"><a data-pin-do="embedPin" href="http://www.pinterest.com/pin/99360735500167749/"></a>
+<!-- Please call pinit.js only once per page -->
+<script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script></div>
+		
+                                 
+
+                            </div>
+
+                            <div class="col-2a" style="width: 50%; float: left;">
+
+                                
+                                    			<div class="textwidget"><a class="twitter-timeline"  href="https://twitter.com/TheLSIndia" data-widget-id="606116024820178944">Tweets by @TheLSIndia</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		
+                                 
+
+                            </div>
+
+                           
+
+                            <div class="clear"></div>
+
+                        </div>
+
+</div>
+
+
+</div>
+</div>
+
+
+
+<div id="container3456" class="wrapper-wide" style="background-color: #ccc;" style="width: 100%;">
+<div id="container3456" style="float: left; width: 100%;">
+<style>
+ #container3456 h5 {
+    font-family: oswald;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+</style>
+<div class="containerInner1 clearfix" style="background-color: #FFF; display: none;">
+ <h5>Little Social1</h5>
+
+                        <div class="col21-set" style="width: 100%;">
+
+                            <div class="col-1a1" style="width: 50%; float: left;">
+
+                                  
+                                    			<div class="textwidget"><div class="fb-page" data-href="https://www.facebook.com/TheLittleShopperIndia" data-width="100%" data-height="320px" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/TheLittleShopperIndia"><a href="https://www.facebook.com/TheLittleShopperIndia">Little Shopper India</a></blockquote></div></div></div>
+		
+                                 
+
+                            </div>
+
+                            <div class="col-2a1" style="width: 50%; float: left;">
+
+                                
+                                    			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/BabyOye" data-widget-id="606116024820178944">Tweets by @BabyOye</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		
+                                 
+
+                            </div>
+
+                           
+
+                            <div class="clear"></div>
+
+                        </div>
+
+</div>
+
+
+</div>
+</div>
+
+
+
+<div id="container5" class="wrapper-wide style="width: 100%;">
+<div class="containerfive" style="float: left; width: 100%;">
+<div class="containerInner clearfix">
+ 
+<h5>Our Picks</h5>
+
+
+
+    <div id="wrapper">
+  <div class="callbacks_container">
+      <ul class="rslides" id="slider5">
+	
+	        <li><a href="#">
+			<img width="300" height="187" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/iStock_000053295158_Medium.jpg" class="attachment-post-thumbnail wp-post-image" alt="Adorable baby" />	
+	          <p class="caption">What can my baby do at month one?</p>
+        </a></li>
+                <li><a href="#">
+			<img width="300" height="125" src="http://www.thelittleshopper.com/wp-content/uploads/2015/08/r-WOMEN-AND-STRESS-large570.jpg" class="attachment-post-thumbnail wp-post-image" alt="Women full of stress" />	
+	          <p class="caption">Stress: where it comes from &#038; how to take charge of it</p>
+        </a></li>
+                <li><a href="#">
+			<img width="300" height="200" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/iStock_000012982880_Medium.jpg" class="attachment-post-thumbnail wp-post-image" alt="Pregnancy fears" />	
+	          <p class="caption">Five common fears of pregnancy and ways to fight them</p>
+        </a></li>
+                <li><a href="#">
+			<img width="300" height="181" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/baby1.jpg" class="attachment-post-thumbnail wp-post-image" alt="baby" />	
+	          <p class="caption">How to know your baby is on the right track towards development</p>
+        </a></li>
+                <li><a href="#">
+			<img width="300" height="200" src="http://www.thelittleshopper.com/wp-content/uploads/2015/07/SM340860.jpg" class="attachment-post-thumbnail wp-post-image" alt="Women Yoga" />	
+	          <p class="caption">What women need to know about yoga today</p>
+        </a></li>
+              </ul>
+<!-- <a class="callbacks_nav callbacks4_nav prev" href="#">Previous</a>
+<a class="callbacks_nav callbacks4_nav next" href="#">Next</a> -->
+  </div>
+<ul id="events" style="display: none;">
+      <li><h3>Example 4 callback events</h3></li>
+    </ul>
+</div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+
+</script>
+<div id="container" class="wrapper-wide">
+<div class="containerInner clearfix">
+            
+	    
+	    <section id="main" class="columns2-" blog-">
+            <div class="content">
+
+						</div><!-- #content -->
+            
+            <div class="clear"></div>
+		</section><!-- #container -->
+		
+</div>
+</div>
+
+<script type="text/javascript" src="http://www.thelittleshopper.com/wp-content/themes/blanco/js/responsiveslides.js" ></script>
+<script type="text/javascript" src="http://www.thelittleshopper.com/wp-content/themes/blanco/js/jquery.bxslider.js" ></script>
+<script type="text/javascript" src="http://www.thelittleshopper.com/wp-content/themes/blanco/js/responsiveslides.min.js" ></script>
+
+<script>
+	jQuery.noConflict();
+    jQuery(function () {
+
+      // Slideshow 4
+      jQuery("#slider5").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+      
+        before: function () {
+          jQuery('#events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          jQuery('#events').append("<li>after event fired.</li>");
+        }
+      });
+
+    });
+	
+	jQuery(document).ready(function(){
+ // jQuery('.bxslider').bxSlider();
+  
+  var slider = jQuery('.video-slider').bxSlider({
+		  maxSlides: 5,
+		  minSlides: 1,
+		  moveSlides: 1,
+		  slideWidth: 190,
+		  slideMargin: 45,
+		  auto: false,
+		  adaptiveHeight: true,
+		  infiniteLoop: false,
+		  pager: false,
+		  nextText: "<img src='http://thelittleshopper.com/wp-content/uploads/2015/images/next.png' />",
+		  prevText: "<img src='http://thelittleshopper.com/wp-content/uploads/2015/images/prev.png' />"
+		});
+  
+	var minSlides, width = $(window).width();
+  
+	if (width < 680) {
+	    minSlides = 1;
+	} else {
+	    minSlides = 2;
+	}
+  
+        var slider = jQuery('.recent-posts-slider').bxSlider({
+		  maxSlides: 6,
+		  minSlides: minSlides,
+		  moveSlides: 2,
+		  slideWidth: 900,
+		  slideMargin: 0,
+		  auto: true,
+		  adaptiveHeight: false,
+		  infiniteLoop: true,
+		  pager: false,
+		  nextText: "<img src='http://www.thelittleshopper.com/wp-content/plugins/recent-posts-slider-responsive/images/button-next.png' />",
+		  prevText: "<img src='http://www.thelittleshopper.com/wp-content/plugins/recent-posts-slider-responsive/images/button-previous.png' />"
+		});
+});
+	
+</script>
+
+				        <script type="text/javascript">
+            var ajaxurl = "http://www.thelittleshopper.com/wp-admin/admin-ajax.php";
+            var inpost_lang_loading = "Loading ...";
+            var inpost_is_front = true;
+            var pn_ext_shortcodes_app_link = "http://www.thelittleshopper.com/wp-content/plugins/inpost-gallery/";
+            jQuery(function () {
+                jQuery.fn.life = function (types, data, fn) {
+                    jQuery(this.context).on(types, this.selector, data, fn);
+                    return this;
+                };
+            });
+        </script>
+        
+<script type="text/javascript"><!--
+wpa2a.targets=[];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+<style>@charset "utf-8";
+/* CSS Document */
+
+.form-group-full input{
+wisth:100%;
+margin:5px auto;
+}
+.form-group-half input{
+wisth:48%;
+float:left;
+margin:5px auto;
+}
+.popupinner .tit .inner2
+{
+	background:url(http://www.thelittleshopper.com/wp-content/uploads/2015/08/pop-logo.png) no-repeat center !important; width:164px; height:69px; text-indent:-999999px;
+}
+#displetpop .shadow
+{
+	background:url(http://www.thelittleshopper.com/wp-content/uploads/2015/08/img1.jpg) no-repeat;
+}
+#displetpop .popup
+{
+ max-width:33.3%; padding:10px 0px 0px; background:none !important;border-radius:6px; margin-left:6%;
+}
+.subtit .inner .inner2
+{
+	color:#00b5cb; font-size:20px; text-align:center; margin-top:10px; margin-bottom:15px;
+}
+.onload-popup-form
+{
+	width:83.33%; margin:auto;
+}
+#firstname-pop
+{
+	width:92%; 
+}
+#lastname-pop
+{
+	width:88%; margin-left:4%; 
+}
+.form-group-half
+{
+	margin-bottom:10px; width:50%; height:auto; float:left;
+}
+.form-group-full
+{
+	margin-bottom:10px; width:100%; height:auto; float:left;
+}
+.form-group-half input, .form-group-full input
+{
+	border:1px solid #efeff0; background-color:#fafafa;  border-radius: 5px; color: #949599; display: block; font-size: 15px; height: 25px; line-height: 1.42857; padding: 6px 4%;transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+}
+#email-pop, #password-pop
+{
+	width:92%; margin-top:0px; margin-bottom:0px;
+}
+#pop-btn
+{
+	 border-radius: 5px; font-size: 18px; line-height: 1.42857; padding: 10px 16px; transition: all 0.2s linear 0s;  background-color: #f15c22;
+    border-top-color: #ff8749; border-width: 1px 0 0; color: #fff; margin:auto;   display:table-caption; margin-bottom:15px; display:-webkit-box;
+}
+.popup .popupinner .close
+{
+	text-align:center; 
+}
+.popup .popupinner .close a
+{
+	  border: 0 none;  height:21px;line-height:21px; padding: 0;  width:100%; border-radius:50px;  display:block; cursor:pointer; text-align:center; font-weight:bold; font-size:14px;
+}
+.term-of-service-pop
+{
+	font-size:13px; color:#949599; text-align:center; margin:20px 0px;
+}
+.term-of-service-pop a
+{
+	color:#00b5cb; text-decoration:none; font-size:13px;
+}
+.pop-footer
+{
+	padding-bottom:5px; margin-bottom:10px;
+}
+.pop-footer p
+{
+	font-size:13px; color:#949599;
+}
+.pop-footer p a
+{
+	font-size:13px; color:#00b5cb;
+}
+.current-state-box, .how-old-box
+{
+	width: 100%; height: auto; font-size: 14px; color: rgb(34, 34, 34); float: left;
+}
+.current-state-box .current-state-label
+{
+	float: left; padding-top: 10px; font-size: 15px; color: rgb(34, 34, 34) ! important;
+}
+#how-old-box .current-state-label
+{
+	float: left; padding-top: 10px; font-size: 15px; color: rgb(34, 34, 34) ! important; width:100%; margin-bottom:5px;
+}
+.current-state-box .current-state-radio-box
+{
+	font-size: 13px; float: left; padding-top: 12px; color:#222 !important;
+}
+.current-state-radio
+{
+	float: left !important; margin-left: 10px !important; margin-right: 4px !important; margin-top: -1px !important; margin-top:3px !important; height:13px !important;
+}
+#Pergnant-txbox
+{
+	margin-bottom:10px; margin-top:0px;  width: 96%;
+}
+#parent-select-box
+{
+	display: inline-block; width: 100%; background: #fafafa; border-radius: 5px; padding: 8px;
+}
+.footer-inner-box
+{
+    height: 36px; width: 97%; margin:auto;
+}
+.footer-already-sign
+{
+	float: left; width: 100%; padding-top: 11px;
+}
+.footer-follows-img
+{
+	float: left; width: 58%; margin-bottom: 0px; padding-top: 10px;
+}
+.child-size input
+{
+	border:1px solid #efeff0; background-color:#fafafa;  border-radius: 5px; color: #949599; display: block; font-size: 15px; height: 25px; line-height: 1.42857; padding: 6px 4%;transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+     width:92% !important; float:left;
+}
+.child-size
+{
+	  float: left;
+    width: 20% !important;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.footer-follows-img .footer-follow-label
+{
+	color:#949599  !important; display: inline; float: left; padding-top: 2px; margin-right: 7px;
+}</style>	<div id="displetpop" style="display:none;">
+		<div class="shadow"></div>
+		<table class="inner">
+			<!-- <tr></tr> -->
+			<tr>
+				<td>
+					<div class="popup">
+						<div class="popupinner">
+							<center>
+								<div class="tit">
+									<div class="inner">
+										<div class="inner2">
+											Little Shopper										</div><!--// .inner2 -->
+									</div><!--// .inner -->
+								</div><!--// .tit -->
+							</center>
+							<div class="subtit">
+								<div class="inner">
+									<div class="inner2">
+										Join our Family									</div><!--// .inner2 -->
+								</div><!--// .inner -->
+							</div><!--// .subtit -->
+							<div class="form">
+								<div class="description">
+																	</div><!--// .description -->
+											<div class="textwidget"><div class="onload-popup-form">
+<form method="post" name="frontpagepopup" id="frontpagepopup" onsubmit="return validation();">
+	<label id="dis" style="width:250px;"></label><br>
+    <div class="form-group form-group-full">
+       <input type="text"  class="form-control" name="firstname-pop" id="firstname-pop" placeholder="Name">
+	   <p class="errors" id="nameid_error"></p>
+	</div>
+
+
+   <div class="form-group form-group-full">
+      <input type="email"  class="form-control" name="email-pop" id="email-pop" name="Email" placeholder="Email">
+   <p class="errors" id="emailid_error"></p>
+   </div>
+
+   <div class="form-group form-group-full" id="box1-pwd">
+      <input type="password" class="form-control" id="password-pop" placeholder="Password">
+      <p class="errors" id="pass_error"></p>
+      <div class="current-state-box">
+      	<span class="current-state-label">Current State</span>
+        <span class="current-state-radio-box">
+        	<input class="current-state-radio" id="ttc" class="current-state-radio" type="radio" name="pergnant" value="TTC" />TTC</span>
+        <span class="current-state-radio-box">
+			<input class="current-state-radio" type="radio" value="Pergnant" id="pergnant" name="pergnant" />Pergnant</span>
+        <span class="current-state-radio-box">
+			<input  class="current-state-radio" type="radio" value="parent" id="parent123" name="pergnant"  />Parent</span></div>
+	   <p class="errors" id="cate_error"></p>
+      </div>
+        
+      
+     <div class="form-group form-group-full" id="Pergnant-txbox"> <input type="text" id="Pergnant-txbox" class="form-control" name="Pergnant-txbox" id="Pergnant-txbox" placeholder="Due Date">
+	 <p class="errors" id="due_error"></p>
+	 </div>
+      
+     <div class="form-group form-group-full"  id="parent-box-hide"> <select id="parent-select-box"  name="parent-select-box" class="form-control" onchange="change();"><option value="0">Select No of Childs</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select>
+	
+	 </div>
+
+     <div id="how-old-box">    </div>
+	 	
+
+    <button type="submit" name="pop-btn" id="pop-btn" class="btn btn-primary" >Join for Free</button>
+</form>
+</div>
+<div class="pop-footer">
+<div class="footer-inner-box">
+<p class="footer-already-sign"> Already a member? <a href="#">Sign In</a></p>
+</div></div>
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+	$("#box1-pwd").hide();
+	$("#Pergnant-txbox").hide();
+	$("#parent-select-box").hide();
+	$("#parent-box-hide").hide();
+	
+    $('#email-pop').focus(function() 
+	{
+    	$("#box1-pwd").show();
+ 	});   
+	$("input[id='pergnant']").click(function () {
+		if ($("#pergnant").is(":checked")) {
+			$("#Pergnant-txbox").show();
+			$("#parent-select-box").hide();
+			$("#parent-box-hide").hide();
+			
+		} else {
+			$("#Pergnant-txbox").hide();
+		}
+	});
+	
+	$("input[id='parent123']").click(function () {
+		if ($("#parent123").is(":checked")) {
+			$("#parent-select-box").show();
+			$("#parent-box-hide").show();
+			$("#Pergnant-txbox").hide();
+		
+		} 
+	});
+	$("input[id='ttc']").click(function () {
+		if ($("#ttc").is(":checked")) {
+			$("#parent-select-box").hide();
+			$("#Pergnant-txbox").hide();
+		
+			
+		} 
+	});
+	
+
+
+
+});
+
+</script>
+
+<script type="text/javascript">
+function change() {
+        var select = document.getElementById("parent-select-box");
+        var divv = document.getElementById("how-old-box");
+        var value = select.value;
+
+
+        if (value == 1) {
+            toAppend = "<span class='current-state-label'>How old are they? &nbsp;&nbsp;&nbsp;</span><div class='child-size'><input type='text' name='child1' id='child1' class='form-control' placeholder='child 1'><p class='errors' id='childs1_error'></p></div>"; divv.innerHTML=toAppend;
+   		   	return;		
+            }
+            if (value == 2) {
+                toAppend = "<span class='current-state-label'>How old are they? &nbsp;&nbsp;&nbsp;</span><div class='child-size'><input type='text' name='child1' id='child1' class='form-control' placeholder='child 1' ><p class='errors' id='childs1_error'></p></div>&nbsp;<div class='child-size'><input type='text' name='child2' id='child2' class='form-control' placeholder='child 2' ><p class='errors' id='childs2_error'></p></div>";divv.innerHTML = toAppend;
+				return;
+            }
+            if (value == 3) {
+				
+                toAppend = "<span class='current-state-label'>How old are they? &nbsp;&nbsp;&nbsp;</span><div class='child-size'><input type='text' name='child1' id='child1' class='form-control' placeholder='child 1'><p class='errors' id='childs1_error'></p></div>&nbsp;<div class='child-size'><input type='text' name='child2' id='child2' class='form-control' placeholder='child 2'><p class='errors' id='childs2_error'></p></div>&nbsp;<div class='child-size'><input type='text' name='child3' id='child3' class='form-control' placeholder='child 3'><p class='errors' id='childs3_error'></p></div>";divv.innerHTML = toAppend;
+				return;
+
+            }
+			 if (value == 4) {
+				
+                toAppend = "<span class='current-state-label'>How old are they? &nbsp;&nbsp;&nbsp;</span><div class='child-size'><input type='text' name='child1' id='child1' class='form-control' placeholder='child 1'><p class='errors' id='childs1_error'></p></div>&nbsp;<div class='child-size'><input type='text' name='child2' id='child2' class='form-control' placeholder='child 2'><p class='errors' id='childs2_error'></p></div>&nbsp;<div class='child-size'><input type='text' name='child3' id='child3' class='form-control' placeholder='child 3'><p class='errors' id='childs3_error'></p></div>&nbsp;<div class='child-size'><input type='text' name='child4' id='child4' class='form-control' placeholder='child 4'><p class='errors' id='childs4_error'></p></div>";divv.innerHTML = toAppend;  return;
+
+            }
+			 if (value == 5) {
+				
+                toAppend = "<span class='current-state-label'>How old are they? &nbsp;&nbsp;&nbsp;</span><div class='child-size'><input type='text' name='child1' id='child1' class='form-control' placeholder='child 1'><p class='errors' id='childs1_error'></p></div>&nbsp;<div class='child-size'><input type='text' name='child2' id='child2' class='form-control' placeholder='child 2'><p class='errors' id='childs2_error'></p></div>&nbsp;<div class='child-size'><input type='text' name='child3' id='child3' class='form-control' placeholder='child 3'><p class='errors' id='childs3_error'></p></div>&nbsp;<div class='child-size'><input type='text' name='child4' id='child4' class='form-control' placeholder='child 4'><p class='errors' id='childs4_error'></p></div>&nbsp;<div class='child-size'><input type='text' name='child5' id='child5' class='form-control' placeholder='child 5'><p class='errors' id='childs5_error'></p></div>";divv.innerHTML = toAppend;  return;
+
+            }
+			
+			
+     }
+	 
+	 
+
+</script>
+
+<script type="text/javascript">
+	
+	$("#frontpagepopup").submit(function() {
+	 
+	 	   $("#nameid_error").html("");
+	
+	  $("#emailid_error").html("");
+	  $("#pass_error").html("");
+	  $("#offers_error").html("");
+	    $("#cate_error").html("");
+		   $("#childs1_error").html("");
+		    $("#childs2_error").html("");
+			 $("#childs3_error").html("");
+			  $("#childs4_error").html("");
+			   $("#childs5_error").html("");
+		    var validation =true;
+  var textVal = $("#firstname-pop").val();
+  if(textVal == "") {
+     $("#nameid_error").html("Please enter Name");
+    validation =false;
+  }
+   var textVal1 = $("#email-pop").val();
+  if(textVal1 == "") {
+   $("#emailid_error").html("Please Enter The Email - ID");
+ validation =false;
+  }
+  
+  var textVal2 = $("#password-pop").val();
+  if(textVal2 == "") {
+      $("#pass_error").html("Please Enter The Password");
+    
+ validation =false;
+  }
+  
+  var value =$("#parent-select-box").val();
+  var child1 = $("#child1").val();
+  var child2 = $("#child2").val();
+  var child3 = $("#child3").val();
+  var child4 = $("#child4").val();
+  var child5 = $("#child5").val();
+  if (value == 1) {
+	
+  if(child1 == "") {
+   $("#childs1_error").html("Please Enter The Child1");
+ validation =false;
+  }
+  }
+  else if(value == 2) {
+	
+  if(child1 == "") {
+   $("#childs1_error").html("Please Enter The Child1");
+ validation =false;
+  }
+   if(child2 == "") {
+   $("#childs2_error").html("Please Enter The Child2");
+ validation =false;
+  }
+  }else if(value == 3) {
+	
+  if(child1 == "") {
+   $("#childs1_error").html("Please Enter The Child1");
+ validation =false;
+  }
+   if(child2 == "") {
+   $("#childs2_error").html("Please Enter The Child2");
+ validation =false;
+  }
+  if(child3 == "") {
+   $("#childs3_error").html("Please Enter The Child3");
+ validation =false;
+  }
+  }else if(value == 4) {
+	
+  if(child1 == "") {
+   $("#childs1_error").html("Please Enter The Child1");
+ validation =false;
+  }
+   if(child2 == "") {
+   $("#childs2_error").html("Please Enter The Child2");
+ validation =false;
+  }
+  if(child3 == "") {
+   $("#childs3_error").html("Please Enter The Child3");
+ validation =false;
+  }
+  if(child4 == "") {
+   $("#childs4_error").html("Please Enter The Child4");
+ validation =false;
+  }
+  }else if(value == 5) {
+	
+  if(child1 == "") {
+   $("#childs1_error").html("Please Enter The Child1");
+ validation =false;
+  }
+   if(child2 == "") {
+   $("#childs2_error").html("Please Enter The Child2");
+ validation =false;
+  }
+  if(child3 == "") {
+   $("#childs3_error").html("Please Enter The Child3");
+ validation =false;
+  }
+  if(child4 == "") {
+   $("#childs4_error").html("Please Enter The Child4");
+ validation =false;
+  }
+   if(child5 == "") {
+   $("#childs5_error").html("Please Enter The Child5");
+ validation =false;
+  }
+  }
+  
+  if($('input[name=pergnant]:checked').length<=0)
+{
+     $("#cate_error").html("Please Choose Your Category Options");
+ validation =false;
+}
+  var card_type = $('input[name=pergnant]:radio:checked').val();
+  
+ 
+	  if (validation) {
+	 if (card_type == 'TTC') {
+		var name = jQuery("#firstname-pop").val();
+	
+  var email = jQuery("#email-pop").val();
+
+  var password = jQuery("#password-pop").val();
+  
+ 
+
+   var dataString = { 'Name' : name ,'Email':email ,'Password':password };
+    jQuery.ajax({
+      type: "POST",
+		url: "http://www.thelittleshopper.com/wp-content/themes/blanco/popupform2.php",
+      data: dataString,
+	  cache: false,
+      success: function(response) {
+		console.log(response);
+			
+			if (response == 'failed') {
+			jQuery('.form').html("<div id='thanks'></div>");
+			 jQuery('#thanks').html("<h2>Sorry! Your Email ID is already registered</h2>");
+		    window.location.reload();
+			}
+			else if (response == 'success') {
+				jQuery('.form').html("<div id='thanks'></div>");
+				 jQuery('#thanks').html("<h2> Form Submitted!</h2>")
+				 .append("<p>We will be in touch soon.</p>")
+			      window.location.reload();
+			
+			}
+			else
+			{
+				
+			}
+			
+      }
+    });
+	  } else if (card_type == "Pergnant") {
+			 var name1 = jQuery("#firstname-pop").val();
+  var email1 = jQuery("#email-pop").val();
+  var password1 = jQuery("#password-pop").val();
+   var dataString = { 'Name1' : name1 ,'Email1':email1 ,'Password1':password1};
+    jQuery.ajax({
+      type: "POST",
+		url: "http://www.thelittleshopper.com/wp-content/themes/blanco/popupform1.php",
+      data: dataString,
+	  cache: false,
+      success: function(response) {
+		console.log(response);
+			if (response == 'failed') {
+			jQuery('.form').html("<div id='thanks'></div>");
+			 jQuery('#thanks').html("<h2>Sorry! Your Email ID is already registered</h2>");
+		  window.location.reload();
+			}
+			else if (response == 'success') {
+				jQuery('.form').html("<div id='thanks'></div>");
+				 jQuery('#thanks').html("<h2> Form Submitted!</h2>")
+				 .append("<p>We will be in touch soon.</p>")
+			    window.location.reload();
+			
+			}
+			else
+			{
+				
+			}
+      }
+    });
+	  }
+	  else if (card_type == "parent") {
+			var name = jQuery("#firstname-pop").val();
+	
+  var email = jQuery("#email-pop").val();
+
+  var password = jQuery("#password-pop").val();
+  
+  var Child1 = jQuery("#child1").val();
+  var Child2 = jQuery("#child2").val();
+  var Child3 = jQuery("#child3").val();
+  var Child4 = jQuery("#child4").val();
+  var Child5 = jQuery("#child5").val();
+var dataString = { 'Name' : name ,'Email':email ,'Password':password , 'Child1' : Child1, 'Child2' : Child2, 'Child3' : Child3, 'Child4' : Child4, 'Child5' : Child5};
+    jQuery.ajax({
+      type: "POST",
+	url: "http://www.thelittleshopper.com/wp-content/themes/blanco/popupform.php",
+      data: dataString,
+	  cache: false,
+      success: function(response) {
+		console.log(response);
+			
+			if (response == 'failed') {
+			jQuery('.form').html("<div id='thanks'></div>");
+				 jQuery('#thanks').html("<h2>Sorry! Your Email ID is already registered</h2>");
+		  window.location.reload();
+			}
+			else if (response == 'success') {
+				jQuery('.form').html("<div id='thanks'></div>");
+				 jQuery('#thanks').html("<h2> Form Submitted!</h2>")
+					 .append("<p>We will be in touch soon.</p>")
+			    window.location.reload();
+			
+			}
+			else
+			{
+				
+			}
+      }
+    });
+	  }
+
+        return false;
+	  }
+	   else{
+		 return false;
+	  }
+
+
+});
+</script></div>
+										<div class="clear"><!-- --></div>
+							</div><!--// .form -->
+							<div class="privacy">
+								<div class="inner">
+																	</div><!--// .inner -->
+							</div><!--// .privacy -->
+															<div class="close"><a href="javascript:void(0);" title="Close">skip</a></div>
+													</div><!--// .popupinner -->
+						<div class="powered">
+							Brought to you by <div class="displet"><a href="http://displet.com/" target="_blank">Displet</a></div>
+						</div><!--// .powered -->
+					</div><!--// .popup -->
+				</td>
+			</tr>
+			<!-- <tr></tr> -->
+		</table>
+	</div>
+	
+<style type='text/css'>
+			.fb_iframe_widget > span {display: table !important;}
+			.woo-social-buttons {margin:10px 0;}
+			.woo-social-buttons img {vertical-align: top;}
+			.woo-social-buttons span.nocount, .woo-social-buttons span.hcount {float:left; margin:0 5px 5px 0; height:21px;}
+			.woo-social-buttons span.vcount {float:left; margin:0 5px 5px 0; height:65px;}
+			.woo-social-buttons iframe {margin: 0px !important; padding: 0px !important; vertical-align:baseline;}
+			.woo-social-buttons .smsb_pinterest.vcount {position:relative; top:30px}
+			.woo-social-buttons .smsb_tumblr iframe {height:20px !important; width:50px !important;} 
+			.woo-social-buttons .smsb_tumblr.hcount iframe {height:20px !important; width:72px !important;}
+			.woo-social-buttons .smsb_tumblr.vcount iframe {height:40px !important; width:55px !important;}
+			.woo-social-buttons .smsb_stumbleupon.vcount iframe {height:60px !important; width:50px !important;}
+			.woo-social-buttons .smsb_vkontakte table tr > td {padding:0px; line-height:auto;}
+			.woo-social-buttons .smsb_vkontakte a {height:auto !important;}		
+		  </style><link rel='stylesheet' id='jcarouselresponsive-css'  href='http://www.thelittleshopper.com/wp-content/plugins/easy-logo-slider/css/jcarouselresponsive.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='style-admin-css'  href='http://www.thelittleshopper.com/wp-content/plugins/easy-logo-slider/css/style-admin.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wr-522-css'  href='http://www.thelittleshopper.com/wp-content/plugins/wr-megamenu/themes/default/default.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wr-pb-jquery-fancybox-css'  href='http://www.thelittleshopper.com/wp-content/plugins/wr-megamenu/assets/3rd-party/jquery-fancybox/jquery.fancybox-1.3.4.css?ver=1.3.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/ultimate-woocommerce-brands/js/mgwoocommercebrands.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-includes/js/comment-reply.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/displet-pop/jquery.cookie.js?ver=4.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","i18n_view_cart":"View Cart","cart_url":"http:\/\/www.thelittleshopper.com\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.thelittleshopper.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.3.13'></script>
+<script type='text/javascript' src='//www.thelittleshopper.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.60'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.thelittleshopper.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.3.13'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.thelittleshopper.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.3.13'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=4.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var yith_wcwl_l10n = {"ajax_url":"http:\/\/www.thelittleshopper.com\/wp-admin\/admin-ajax.php","redirect_to_cart":"no","multi_wishlist":"","hide_add_button":"1","is_user_logged_in":"","ajax_loader_url":"http:\/\/www.thelittleshopper.com\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader.gif","remove_from_wishlist_after_add_to_cart":"yes","labels":{"cookie_disabled":"We are sorry, but this feature is available only if cookies are enabled on your browser.","added_to_cart_message":"<div class=\"woocommerce-message\">Product correctly added to cart<\/div>"},"actions":{"add_to_wishlist_action":"add_to_wishlist","remove_from_wishlist_action":"remove_from_wishlist","move_to_another_wishlist_action":"move_to_another_wishlsit","reload_wishlist_and_adding_elem_action":"reload_wishlist_and_adding_elem"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.js?ver=2.0'></script>
+<script type='text/javascript' src='//www.thelittleshopper.com/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.5'></script>
+<script type='text/javascript' src='//www.thelittleshopper.com/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.init.min.js?ver=2.3.13'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/wr-megamenu/assets/3rd-party/bs3/bootstrap/js/bootstrap_frontend.min.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/wr-megamenu/assets/js/frontend.js'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/woocommerce-social-media-share-buttons/smsb_script.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/wr-megamenu/assets/3rd-party/jquery-fancybox/jquery.fancybox-1.3.4.js?ver=1.3.4'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/wr-megamenu/assets/3rd-party/jquery-lazyload/jquery.lazyload.js?ver=1.8.4'></script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/wr-megamenu/shortcodes/image/assets/js/image_frontend.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"littleshopperimaginet"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.thelittleshopper.com/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=4.2.2'></script>
+		<div id="wprmenu_bar" class="wprmenu_bar">
+			<div class="wprmenu_icon">
+				<span class="wprmenu_ic_1"></span>
+				<span class="wprmenu_ic_2"></span>
+				<span class="wprmenu_ic_3"></span>
+			</div>
+			<div class="menu_title">
+				MENU							</div>
+		</div>
+
+		<div id="wprmenu_menu" class="wprmenu_levels left wprmenu_custom_icons">
+						<ul id="wprmenu_menu_ul">
+				<li id="menu-item-1391" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1391"><a href="http://www.thelittleshopper.com/magazine-category/little-did-you-know/">Little Did You Know</a></li>
+<li id="menu-item-1418" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item menu-item-1418"><a href="http://www.thelittleshopper.com/magazine-category/me-time/">Me Time</a>
+<ul class="sub-menu">
+	<li id="menu-item-1447" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1447"><a href="http://www.thelittleshopper.com/magazine-category/beauty/">Beauty</a></li>
+	<li id="menu-item-1448" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1448"><a href="http://www.thelittleshopper.com/magazine-category/care-me-time/">Care</a></li>
+	<li id="menu-item-1449" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1449"><a href="http://www.thelittleshopper.com/magazine-category/fashion-me-time/">Fashion</a></li>
+	<li id="menu-item-534" class="home-scroll-enable menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-534"><a href="http://www.thelittleshopper.com/">Home</a></li>
+	<li id="menu-item-1450" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1450"><a href="http://www.thelittleshopper.com/magazine-category/health-fitness/">Health &#038; Fitness</a></li>
+	<li id="menu-item-1419" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1419"><a href="http://www.thelittleshopper.com/magazine-category/self-development/">Self Development</a></li>
+</ul>
+</li>
+<li id="menu-item-1389" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item menu-item-1389"><a href="http://www.thelittleshopper.com/magazine-category/getting-pregnant/">Getting Pregnant</a>
+<ul class="sub-menu">
+	<li id="menu-item-1390" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1390"><a href="http://www.thelittleshopper.com/magazine-category/fertility-ovulation/">Fertility &#038; Ovulation</a></li>
+	<li id="menu-item-1434" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1434"><a href="http://www.thelittleshopper.com/magazine-category/pre-pregnancy-health-body/">Pre-pregnancy health &#038; body</a></li>
+	<li id="menu-item-1435" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1435"><a href="http://www.thelittleshopper.com/magazine-category/trying-to-conceive/">Trying to conceive</a></li>
+</ul>
+</li>
+<li id="menu-item-1428" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item menu-item-1428"><a href="http://www.thelittleshopper.com/magazine-category/pregnancy/">Pregnancy</a>
+<ul class="sub-menu">
+	<li id="menu-item-1437" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1437"><a href="http://www.thelittleshopper.com/magazine-category/1st-trimester/">1st Trimester</a></li>
+	<li id="menu-item-1438" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1438"><a href="http://www.thelittleshopper.com/magazine-category/2nd-trimester/">2nd Trimester</a></li>
+	<li id="menu-item-1439" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1439"><a href="http://www.thelittleshopper.com/magazine-category/3rd-trimester/">3rd Trimester</a></li>
+	<li id="menu-item-1440" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1440"><a href="http://www.thelittleshopper.com/magazine-category/body/">Body</a></li>
+	<li id="menu-item-1441" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1441"><a href="http://www.thelittleshopper.com/magazine-category/labor-delivery/">Labor &#038; Delivery</a></li>
+	<li id="menu-item-1429" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1429"><a href="http://www.thelittleshopper.com/magazine-category/maternity-fashion/">Maternity Fashion</a></li>
+	<li id="menu-item-1446" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1446"><a href="http://www.thelittleshopper.com/magazine-category/health-symptoms/">Health &#038; Symptoms</a></li>
+</ul>
+</li>
+<li id="menu-item-1420" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item menu-item-1420"><a href="http://www.thelittleshopper.com/magazine-category/parenting/">Parenting</a>
+<ul class="sub-menu">
+	<li id="menu-item-1451" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1451"><a href="http://www.thelittleshopper.com/magazine-category/adoption/">Adoption</a></li>
+	<li id="menu-item-1452" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1452"><a href="http://www.thelittleshopper.com/magazine-category/fatherhood/">Fatherhood</a></li>
+	<li id="menu-item-1421" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1421"><a href="http://www.thelittleshopper.com/magazine-category/marriage-romance/">Marriage &#038; Romance</a></li>
+	<li id="menu-item-1422" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1422"><a href="http://www.thelittleshopper.com/magazine-category/money-finance/">Money &#038; Finance</a></li>
+	<li id="menu-item-1423" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1423"><a href="http://www.thelittleshopper.com/magazine-category/motherhood/">Motherhood</a></li>
+	<li id="menu-item-1424" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1424"><a href="http://www.thelittleshopper.com/magazine-category/new-parents/">New Parents</a></li>
+	<li id="menu-item-1425" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1425"><a href="http://www.thelittleshopper.com/magazine-category/single-mom/">Single Mom</a></li>
+	<li id="menu-item-1426" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1426"><a href="http://www.thelittleshopper.com/magazine-category/twins/">Twins</a></li>
+	<li id="menu-item-1427" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1427"><a href="http://www.thelittleshopper.com/magazine-category/working-mom/">Working Mom</a></li>
+</ul>
+</li>
+<li id="menu-item-1392" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item menu-item-1392"><a href="http://www.thelittleshopper.com/magazine-category/littles/">Littles</a>
+<ul class="sub-menu">
+	<li id="menu-item-1393" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item menu-item-1393"><a href="http://www.thelittleshopper.com/magazine-category/baby/">Baby</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1394"><a href="http://www.thelittleshopper.com/magazine-category/activities-baby/">Activities</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1395"><a href="http://www.thelittleshopper.com/magazine-category/care-baby/">Care</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1396"><a href="http://www.thelittleshopper.com/magazine-category/development-baby/">Development</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1397"><a href="http://www.thelittleshopper.com/magazine-category/disorders-baby/">Disorders</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1398"><a href="http://www.thelittleshopper.com/magazine-category/fashion-baby/">Fashion</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1399"><a href="http://www.thelittleshopper.com/magazine-category/food-nutrition-baby/">Food &#038; Nutrition</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1400"><a href="http://www.thelittleshopper.com/magazine-category/health-safety-baby/">Health &#038; Safety</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1401" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item menu-item-1401"><a href="http://www.thelittleshopper.com/magazine-category/child/">Child</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1402"><a href="http://www.thelittleshopper.com/magazine-category/activities-child/">Activities</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1403"><a href="http://www.thelittleshopper.com/magazine-category/care-child/">Care</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1404"><a href="http://www.thelittleshopper.com/magazine-category/development-child/">Development</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1405"><a href="http://www.thelittleshopper.com/magazine-category/disorders-child/">Disorders</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1406"><a href="http://www.thelittleshopper.com/magazine-category/fashion-child/">Fashion</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1415"><a href="http://www.thelittleshopper.com/magazine-category/food-nutrition-child/">Food &#038; Nutrition</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1408"><a href="http://www.thelittleshopper.com/magazine-category/health-safety-child/">Health &#038; Safety</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1436" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item menu-item-1436"><a href="http://www.thelittleshopper.com/magazine-category/toddler/">Toddler</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1409"><a href="http://www.thelittleshopper.com/magazine-category/activities-toddler/">Activities</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1410"><a href="http://www.thelittleshopper.com/magazine-category/care-toddler/">Care</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1411"><a href="http://www.thelittleshopper.com/magazine-category/development-toddler/">Development</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1412"><a href="http://www.thelittleshopper.com/magazine-category/disorders-toddler/">Disorders</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1413"><a href="http://www.thelittleshopper.com/magazine-category/fashion-toddler/">Fashion</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1416"><a href="http://www.thelittleshopper.com/magazine-category/food-nutrition-toddler/">Food &#038; Nutrition</a></li>
+		<li class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1417"><a href="http://www.thelittleshopper.com/magazine-category/health-safety-toddler/">Health &#038; Safety</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-1383" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item menu-item-1383"><a href="http://www.thelittleshopper.com/magazine-category/food/">Food</a>
+<ul class="sub-menu">
+	<li id="menu-item-1384" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1384"><a href="http://www.thelittleshopper.com/magazine-category/breakfast/">Breakfast</a></li>
+	<li id="menu-item-1385" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1385"><a href="http://www.thelittleshopper.com/magazine-category/desserts/">Desserts</a></li>
+	<li id="menu-item-1386" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1386"><a href="http://www.thelittleshopper.com/magazine-category/dinner/">Dinner</a></li>
+	<li id="menu-item-1387" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1387"><a href="http://www.thelittleshopper.com/magazine-category/drinks/">Drinks</a></li>
+	<li id="menu-item-1388" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1388"><a href="http://www.thelittleshopper.com/magazine-category/lunch/">Lunch</a></li>
+	<li id="menu-item-1432" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1432"><a href="http://www.thelittleshopper.com/magazine-category/party-feasts/">Party Feasts</a></li>
+	<li id="menu-item-1433" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1433"><a href="http://www.thelittleshopper.com/magazine-category/snacks/">Snacks</a></li>
+</ul>
+</li>
+<li id="menu-item-1430" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-has-children menu-parent-item menu-item-1430"><a href="http://www.thelittleshopper.com/magazine-category/reporting-live/">Reporting Live</a>
+<ul class="sub-menu">
+	<li id="menu-item-1442" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1442"><a href="http://www.thelittleshopper.com/magazine-category/behind-the-scenes/">Behind the scenes</a></li>
+	<li id="menu-item-1431" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1431"><a href="http://www.thelittleshopper.com/magazine-category/news/">News</a></li>
+	<li id="menu-item-1443" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1443"><a href="http://www.thelittleshopper.com/magazine-category/celeb/">Celeb</a></li>
+	<li id="menu-item-1444" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1444"><a href="http://www.thelittleshopper.com/magazine-category/empowerment/">Empowerment</a></li>
+	<li id="menu-item-1445" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1445"><a href="http://www.thelittleshopper.com/magazine-category/join-a-street-team/">Join a Street Team</a></li>
+	<li id="menu-item-2013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2013"><a href="http://www.thelittleshopper.com/magazine/about-us-magazine/">About Us</a></li>
+</ul>
+</li>
+<li id="menu-item-1453" class="menu-item menu-item-type-taxonomy menu-item-object-magazine-category menu-item-1453"><a href="http://www.thelittleshopper.com/magazine-category/mommy-anonymous/">Mommy Anonymous</a></li>
+			</ul>
+					</div>
+		<script type="text/javascript">
+(function($) {
+	$(document).ready(function() {
+ $( '.primary_522 ul.sub-menu li a, .primary_522 ul.submenu-items li a' ).prepend( '<i class="glyphicon glyphicon-chevron-right"></i>' );$(document).scroll(function () {
+								var y = $(document).scrollTop(),
+								mega_container = $( '.wr-megamenu-container.primary_522' );
+								responsive = $( '.it-responsive-mega' );
+								if (y > mega_container.parent().offset().top) {
+									mega_container.addClass( 'stick' );
+									responsive.addClass( 'stick' );
+								} else {
+									mega_container.removeClass( 'stick' );
+									responsive.removeClass( 'stick' );
+								}
+							});
+
+			$( '.primary_522 .mega-item.wr-megamenu-fixed, .primary_522 .menu-item-has-children.menu-default' ).on( 'hover', function () {
+
+				var
+					mega_inner = null,
+					mega_menu = $(this).find( ' > .wr-megamenu-inner' ),
+					sub_menu = $(this).find( ' > .sub-menu' ),
+					is_mega_inner = false
+					;
+
+				if (sub_menu.length > 0) {
+					mega_inner = sub_menu;
+				} else if (mega_menu.length > 0) {
+					mega_inner = mega_menu;
+					is_mega_inner = true;
+				}
+				if (mega_inner != null) {
+					if (mega_inner.outerWidth() > ($(window).outerWidth() - mega_inner.offset().left ) ) {
+						if (!is_mega_inner) {
+							mega_inner.addClass( 'wr-megamenu-rtl' );
+							$( '.primary_522 ul.sub-menu li.wr-megamenu-item' ).css({'text-align': 'right', 'background': 'inherit'});
+							$( '.primary_522 ul.wr-mega-menu ul ul.sub-menu' ).css( 'right', '99%' );
+							$( '.primary_522 ul.wr-mega-menu ul li' ).on( 'hover', function () {
+								$(this).find( '> ul.sub-menu' ).css({'right': '100%'});
+							});
+							$( '.wr-megamenu-container.primary_522 ul ul' ).addClass('pull-right');
+						} else {
+							mega_inner.addClass('wr-megamenu-left-inner');
+						}
+					}
+				}
+			});
+		
+	});
+})(jQuery);
+</script>
+        
+          
+            <footer id="footer" style="background: none; padding: 0px;">
+        <div class="copyright">
+ 		<div class="containerInner1 clearfix">	   
+                    <div class="fl-l links" style="width: 100%;">
+                   
+                            <p align="center" style="margin-bottom: 20px;">  &copy; 2015 Little Shopper All Rights Resrved</p> 
+                     
+                      
+                    </div>
+		   
+             
+                    <div class="clear"></div>
+		</div>
+                </div><!-- copyright -->
+                                    <div id="back-to-top"><a href="#top" id="top-link"></a></div>
+                   
+            
+            </footer>
+
+
+<script type="text/javascript">
+//    $(document).ready(function(){
+//	window.alert("Little Shopper");
+//    });
+//$("li.home-scroll-enable").hide();
+$(window).scroll(function() {
+    if ($(".containerInner.containerInner-blog").offset().top > 50) {
+        $(".wr-megamenu-container li.home-scroll-enable").attr('style','display: inline-block');
+	//$(".wr-mega-menu > li > a").css({'padding':'15px 20px !important;'});
+	$('.wr-mega-menu > li > a').attr('style','padding: 15px 20px !important');
+    } else {
+        $(".wr-megamenu-container li.home-scroll-enable").attr('style','display: none');
+	$('.wr-mega-menu > li > a').attr('style','padding: 15px 22px !important');
+    }
+});
+</script>
+   
+</body>
+</html>
